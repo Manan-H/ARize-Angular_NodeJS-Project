@@ -1,0 +1,35 @@
+[{
+    "id": 1,
+    "title": "Use ARize for",
+    "currency": "",
+    "price": "Free",
+    "sub": "",
+    "vat": "",
+    "option1": "Augmented Reality",
+    "option1_fa": "fa fa-check",
+    "option2": "2D/3D Content",
+    "option2_fa": "fa fa-check",
+    "option3": "Commercial use",
+    "option3_fa": "fa fa-check",
+    "option4": "Support",
+    "option4_fa": "fa fa-check",
+    "btn_text": "LET'S TRY"
+  },
+  {
+    "id": 2,
+    "title": "Content Creation",
+    "currency": "$",
+    "price": 50,
+    "sub": "/starts from",
+    "vat": "VAT not included",
+    "option1": "Content Creation",
+    "option1_fa": "fa fa-check",
+    "option2": "2D Content/Video",
+    "option2_fa": "fa fa-check",
+    "option3": "3D Models & Animation",
+    "option3_fa": "fa fa-times",
+    "option4": "Support",
+    "option4_fa": "fa fa-times",
+    "btn_text": "LET'S TRY"
+  }
+]

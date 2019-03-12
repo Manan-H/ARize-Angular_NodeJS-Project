@@ -1,0 +1,54 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MainComponent } from './components/main/main.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component';
+import { LatestComponent } from './components/latest/latest.component';
+import { ServicesComponent } from './components/services/services.component';
+import { WhyusComponent } from './components/whyus/whyus.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { SubscribeFormsComponent } from './components/subscribe-forms/subscribe-forms.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RecaptchaModule } from 'ng-recaptcha';
+import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
+
+// import { Observable } from 'rxjs';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    NavbarComponent,
+    MainComponent,
+    FooterComponent,
+    LatestComponent,
+    ServicesComponent,
+    WhyusComponent,
+    PortfolioComponent,
+    PricingComponent,
+    SubscribeFormsComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    MDBBootstrapModule.forRoot(),
+    FontAwesomeModule,
+    RecaptchaModule.forRoot(),
+    RecaptchaFormsModule
+    // Observable
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule {}

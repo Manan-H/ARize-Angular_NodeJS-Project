@@ -1,0 +1,229 @@
+// Pricing Section
+
+.pricing {
+  font-family: Roboto;
+
+  &-btn {
+    height: 50px;
+
+    &-item {
+      text-decoration: none;
+      margin-right: 20px;
+      font-family: Roboto;
+      display: inline-block;
+      padding: 5px 15px;
+      font-size: 20px;
+      color: #151a22;
+      text-transform: uppercase;
+      border-radius: 15px 0;
+      overflow: hidden;
+      position: relative;
+      background: none;
+      border: none;
+      transition: all 0.3s ease 0s;
+
+      &:hover {
+        padding: 10px 20px;
+        background: #580134;
+        color: #ffffff;
+        border-radius: 15px 0;
+
+      }
+    }
+  }
+
+  &_title {
+    position: relative;
+    margin: 20px auto;
+    padding: 0;
+    color: #161a22;
+    font-size: 28px;
+    z-index: 2;
+    font-family: Roboto;
+    text-align: center;
+  }
+
+  &_card {
+    margin: 50px 50px;
+    background: none;
+    border: none;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+
+    &_btn {
+      text-align: center;
+    }
+
+    &_body {
+      margin-top: 10px;
+      background: #fcfeff;
+      border-top: 1px solid black;
+      padding: 0 20px;
+
+      & ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        & li {
+          text-align: left;
+          color: #161a22;
+          font-size: 16px;
+          line-height: 50px;
+          font-family: Roboto;
+
+
+          & span {
+            float: right;
+          }
+        }
+      }
+    }
+
+  }
+
+  &_price {
+    text-align: center;
+
+    & sup {
+      top: -1.5em;
+      font-size: 19px;
+      position: relative;
+      font-size: 75%;
+      line-height: 0;
+      vertical-align: baseline
+    }
+
+    & b {
+      color: #161a22;
+      font-size: 54px;
+    }
+
+    & sub {
+      bottom: -.25em;
+      font-size: 19px;
+      vertical-align: baseline;
+    }
+
+    & p {
+      position: absolute;
+      top: 139px;
+      left: 87px;
+      font-size: 14px;
+      font-family: Roboto;
+      color: #580134;
+    }
+  }
+
+  &_interactive_project {
+
+    &_desc {
+      width: 40%;
+      margin: auto 20px;
+      text-align: justify;
+    }
+
+  }
+
+}
+
+.selected_btn {
+  padding: 10px 20px;
+  background: #580134;
+  color: #ffffff;
+  border-radius: 15px 0;
+}
+
+.hideDiv {
+  display: none;
+}
+
+.Coral button {
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: black;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 1rem 4.8rem 2rem 4rem;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  transition: all 1s ease;
+}
+
+.Coral button a {
+  text-decoration: none;
+}
+
+.Coral button span {
+  position: absolute;
+  top: 1.75em;
+  left: 50%;
+  width: 20em;
+  height: 20em;
+  margin-left: -10em;
+  border-radius: 42.5%;
+  transform-origin: 50% 50%;
+  transition: all 1s ease, top 1.5s ease;
+}
+
+.Coral button .Coralwave1 {
+  background: #4ab3e1;
+  animation: smallwave 4s infinite linear;
+}
+
+.Coral button .Coralwave2 {
+  background: #555ea9;
+  animation: smallwave 7s infinite linear;
+}
+
+.Coral button .Coralwave3 {
+  background: #d91c56;
+  animation: smallwave 9s infinite linear;
+}
+
+.Coral button:hover {
+  transition: all 1s ease;
+}
+
+.Coral button:hover span {
+  top: 0.5em;
+  transition: all 1s ease, top 1.5s ease;
+}
+
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.975);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes smallwave {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.4;
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.95);
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 0.4;
+  }
+}

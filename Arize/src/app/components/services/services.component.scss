@@ -1,0 +1,115 @@
+// Services Section
+
+.service-row {
+  text-align: center;
+  display: flex;
+}
+
+.ar_marketing_image {
+  height: 300px;
+  background-position: center;
+  background-image: url('../../../assets/img/services_images/AR_for_Marketing.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.ar_art_image {
+  height: 300px;
+  background-position: center;
+  background-image: url('../../../assets/img/services_images/AR_for_Art.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ar_engineering_image {
+  height: 300px;
+  background-position: center;
+  background-image: url('../../../assets/img/services_images/AR_for_Engineering.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ar_education_image {
+  height: 300px;
+  background-position: center;
+  background-image: url('../../../assets/img/services_images/AR_for_Education.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.service-item {
+  margin-top: 110px;
+  color: black;
+  font-family: Roboto;
+
+  &-title {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  &-text {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  &-btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .service-item {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .ar_marketing_image {
+    height: 300px;
+  }
+}
+
+.service-description {
+  transition: 0.5s;
+}
+
+.service-description a {
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 991px) {
+  .service-item-btn {
+    opacity: 0;
+  }
+
+  .service-row:hover .service-item-btn {
+    opacity: 1;
+  }
+
+  .service-row:hover .service-description {
+    transform: translateY(-25px);
+  }
+}
+
+.service-order1 {
+  order: 1;
+}
+
+.service-order2 {
+  order: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .service-order1 {
+    order: unset;
+  }
+
+  .service-order2 {
+    order: unset;
+  }
+}

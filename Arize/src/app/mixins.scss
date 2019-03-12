@@ -1,0 +1,5 @@
+@mixin btnStyle($h, $w, $c) {
+  max-height: $h;
+  max-width: $w;
+  color: $c
+}

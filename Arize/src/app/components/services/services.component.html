@@ -1,0 +1,32 @@
+<!-- Services Section -->
+
+<section class="services">
+  <div class="container">
+    <div class="row">
+      <h2>Services</h2>
+    </div>
+
+    <div class="row service-row" *ngFor="let service of services">
+      <div [className]="'col-md-6 ' + service.imgClmOrder">
+        <a href="">
+          <div class="{{ service.image }}"></div>
+        </a>
+      </div>
+
+      <div [className]="'col-md-6 service-description ' + service.descClmOrder">
+        <a href="">
+          <div class="service-item">
+            <h3 class="service-item-title">{{ service.title }}</h3>
+            <p class="service-item-text">
+              {{ service.text1 }} <br />
+              {{ service.text2 }}
+            </p>
+            <b class="service-item-btn">{{ service.btn_text }}</b>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section End -->

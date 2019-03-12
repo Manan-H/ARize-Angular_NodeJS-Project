@@ -1,0 +1,59 @@
+@import '../../variables';
+
+.header {
+  background-image: url(../../../assets/img/header_images/header_background.jpg);
+  max-height: 930px;
+  min-height: 750px;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -71px;
+  z-index: -1111;
+
+  &_container {
+    position: relative;
+    top: 25%;
+  }
+
+  &_text {
+    width: 400px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 2.5;
+    font-weight: 300;
+
+    span {
+      font-weight: 900;
+      font-size: 21px;
+    }
+  }
+
+  &_button {
+    width: 180px;
+    display: inline-block;
+
+    padding: 10px 5px;
+  }
+
+  &_device {
+    display: inline-block;
+
+    // &_image {
+    //   width: 300px;
+    // }
+  }
+}
+
+
+@media screen and (max-width: 456px) {
+  .header_text {
+    width: 300px;
+    font-size: 11px;
+  }
+
+  .header_button {
+    width: 120px;
+  }
+}

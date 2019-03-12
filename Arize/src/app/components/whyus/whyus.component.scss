@@ -1,0 +1,138 @@
+// Why Us Section
+
+.features {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.features_title {
+  color: #161a22;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+.icon_image {
+  margin: 0px 0px 60px 0px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.description {
+  display: inline-block;
+  width: 282px;
+  padding-left: 20px;
+}
+
+.features-item {
+  text-align: center;
+  float: left;
+  transition-property: background-color, border-radius;
+  transition-duration: 1s;
+}
+
+.features-item:hover {
+  background-color: F5F5F5;
+  border-radius: 20px;
+}
+
+.description_title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Panton';
+}
+
+.description_text {
+  font-size: 12px;
+  font-family: 'Panton';
+}
+
+.phone_image {
+  position: absolute;
+  max-width: 100%;
+  top: -2px;
+  left: 50%;
+  box-shadow: 0px 10px 20px grey;
+  border-radius: 41px;
+  transform: translate(-50%);
+}
+
+.phone_column {
+  text-align: center;
+
+}
+
+.features_image {
+  position: relative;
+  width: 260px;
+  height: 531px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 992px) {
+  .description_text {
+    height: 140px;
+  }
+}
+
+.ar_image {
+  width: 225px;
+  position: absolute;
+  top: 63px;
+  left: 17px;
+  display: none;
+}
+
+.features_image img:nth-child(2) {
+  display: block;
+}
+
+.icon_image {
+  box-shadow: 0px 10px 20px grey;
+}
+
+.ar_image {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .7s;
+  animation-name: fade;
+  animation-duration: .7s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+@media screen and (max-width: 991px) {
+  .order1 {
+    order: unset;
+  }
+
+  .order2 {
+    order: unset;
+  }
+}

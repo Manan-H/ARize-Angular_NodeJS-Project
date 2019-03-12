@@ -1,0 +1,26 @@
+::ng-deep .navbar {
+  position: fixed;
+  z-index: 999;
+}
+
+::ng-deep .gradient {
+  background-image: linear-gradient(to right,
+    #0e131c,
+    #0e131c,
+    #2155c3,
+    #2155c3);
+}
+
+.logo {
+  width: auto;
+  height: 45px;
+}
+
+.navbar-links {
+  margin-left: 30%;
+  color: white;
+}
+
+.navbar-nav {
+  color: white;
+}

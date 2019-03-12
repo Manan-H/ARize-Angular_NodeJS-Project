@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Panton;
+  src: url("/assets/fonts/Panton-Regular.otf");
+}
+
+@font-face {
+  font-family: Panton-light;
+  src: url("/assets/fonts/Panton-Light.otf");
+}
+
+@font-face {
+  font-family: Panton-bold;
+  src: url("/assets/fonts/Panton-Bold.otf");
+}
+
+@font-face {
+  font-family: Panton-light-italic;
+  src: url("/assets/fonts/Panton-LightItalic.otf");
+}
+
+@font-face {
+  font-family: Grapalat;
+  src: url("/assets/fonts/GHEAGrpalatReg.otf");
+}
+
+/*====PANTON===*/
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+
+body {
+  height: 5000px;
+  font-family: Roboto;
+}
+
+h2 {
+  margin: 90px auto 50px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 12.2px;
+  font-weight: normal;
+  font-size: 90px;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 35px;
+  }
+}
