@@ -19,6 +19,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RecaptchaModule } from 'ng-recaptcha';
 import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
+import { BlogComponent } from './components/blog/blog.component';
 
 // import { Observable } from 'rxjs';
 
@@ -34,7 +35,8 @@ import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
     WhyusComponent,
     PortfolioComponent,
     PricingComponent,
-    SubscribeFormsComponent
+    SubscribeFormsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
