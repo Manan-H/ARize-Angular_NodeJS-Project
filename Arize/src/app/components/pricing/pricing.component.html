@@ -116,51 +116,57 @@
   <div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header-content">
+        <div class="">
+          <h4 class="modal-title">Augmented Reality 2D&amp;3D content creation and setup </h4>
+          <p>We will contact you soon</p>
+        </div>
       </div>
       <div class="modal-body">
-        <form class="well form-horizontal bv-form" id="pricing-form">
+
+        <form [formGroup]='priceForm' (ngSubmit)="doPurchase()" class="well form-horizontal bv-form" id="pricing-form">
           <!-- Name input-->
           <div class="form-group center">
-            <input name="first_name" placeholder="Full Name" class="form-control" type="text" data-bv-field="first_name">
+            <input formControlName="first_name" placeholder="Full Name" class="form-control" type="text" data-bv-field="first_name">
           </div>
           <!-- Email input-->
           <div class="form-group center">
-            <input name="user_email" placeholder="E-Mail Address" class="form-control" type="email" data-bv-field="email">
+            <input formControlName="user_email" placeholder="E-Mail Address" class="form-control" type="email"
+              data-bv-field="email">
           </div>
           <div class="form-pricing-content">
 
-            <div class="calc-cover form-group">
+            <div class="calc-cover row">
               <!-- content quantity input-->
-              <div class="calc-input">
+              <div class="calc-input form-group col-md-6">
                 <span>3D models & animation</span>
-                <input name="quantity_2d" type="number" min="0" step="1" placeholder="0" data-bv-field="quantity_2d">
+                <input formControlName="quantity_2d" type="number" min="0" step="1" placeholder="0" data-bv-field="quantity_2d">
               </div>
               <!-- target quantity input-->
-              <div class="calc-input">
+              <div class="calc-input form-group col-md-6">
                 <span>2D animation & video</span>
-                <input name="quantity_3d" type="number" min="0" step="1" placeholder="0" data-bv-field="quantity_3d">
+                <input formControlName="quantity_3d" type="number" min="0" step="1" placeholder="0" data-bv-field="quantity_3d">
               </div>
             </div>
 
 
             <!-- description input-->
             <div class="form-group center">
-              <textarea name="description" id="" cols="40" rows="5" placeholder="Description" class="form-control"></textarea>
+              <textarea formControlName="description" id="" cols="40" rows="5" placeholder="Description" class="form-control"></textarea>
             </div>
           </div>
-          <!-- Form Name -->
-          <input type="text" value="Start from 50 $" class="center fee display-none" id="packageFee2" name="packageFee"
-            uneditable="">
-          <input type="text" value="2d/3d Content Creation" class="modal-title" id="packageName" name="packageName"
-            uneditable="">
+
+          <div class="form-group">
+            <re-captcha (resolved)="resolved($event)" siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" class="g-recaptcha"
+              data-callback="recaptchaCallback"></re-captcha>
+          </div>
 
 
 
           <!-- Success message -->
-          <div class="alert alert-success rec" role="alert" id="success_message2">Success <i class="glyphicon glyphicon-thumbs-up"></i>
+          <div class="alert alert-success rec" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i>
             Thanks for contacting us, we will get back to you shortly.</div>
           <!-- Fail message -->
-          <div class="alert alert-danger" role="alert" id="danger_message2">Error <i class="glyphicon glyphicon-thumbs-down"></i>
+          <div class="alert alert-danger" role="alert" id="danger_message">Error <i class="glyphicon glyphicon-thumbs-down"></i>
             Sorry, something went wrong. Try to reload page.</div>
           <!-- Image loader -->
           <div id='loader' style='display: none;'>
@@ -176,31 +182,3 @@
     </div>
   </div>
 </div>
-<!--========END modal for pricing-->
-<!--modal for response success-->
-<div class="modal fade in" id="pricing_success_response" role="dialog">
-  <div class="modal-dialog modal-md">
-    <div class="modaol-content">
-      <div class="modal-body">
-        <div class="alert alert-success" role="alert">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for
-          contacting us, we will get back to you shortly.</div>
-        <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Got It</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!--modal for response success end-->
-<!--modal for response error-->
-<div class="modal fade in" id="pricing_error_response" role="dialog">
-  <div class="modal-dialog modal-md">
-    <div class="modaol-content">
-      <div class="modal-body">
-        <div class="alert alert-danger" role="alert">Error <i class="glyphicon glyphicon-thumbs-down"></i> Sorry,
-          something went wrong. Try to reload page.
-        </div>
-        <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Got It</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!--modal for response error end-->

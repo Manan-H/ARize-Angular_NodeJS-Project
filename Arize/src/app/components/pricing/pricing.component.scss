@@ -227,3 +227,209 @@
     opacity: 0.4;
   }
 }
+
+
+// Modal
+
+#modalPriceBasic {
+  text-align: center;
+  color: #1f7eef;
+
+}
+
+
+#modalPriceBasic .modal-header-content {
+  border: none;
+  padding: 75px;
+  padding-bottom: 0;
+}
+
+#modalPriceBasic .modal-body {
+  padding: 1rem 1rem;
+  margin: 1.5rem 2rem 2rem;
+  border: 0.1px solid #e9ecef;
+}
+
+#modalPriceBasic .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+#modalPriceBasic .modal-content {
+  border-radius: 5px;
+}
+
+#modalPriceBasic .modal-title {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.20;
+  text-align: left;
+  color: #1f7eef;
+}
+
+#modalPriceBasic .modal-header-content p {
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: initial;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #1f7eef;
+  margin-top: 5px;
+}
+
+#success_message {
+  display: none;
+}
+
+#danger_message {
+  display: none;
+}
+
+#modalPriceBasic .modal-header {
+  border: none;
+  padding: 75px;
+  padding-bottom: 0;
+}
+
+#modalPriceBasic .modal-header h4 {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.20;
+  text-align: left;
+  color: #1f7eef;
+}
+
+#modalPriceBasic .modal-header p {
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: initial;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #1f7eef;
+  margin-top: 5px;
+}
+
+#modalPriceBasic .modal-body form {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+#modalPriceBasic .modal-body form input,
+#modalPriceBasic .modal-body textarea {
+  border-radius: 0px;
+  border: 1px solid #bce0fd;
+  color: #0e131c;
+}
+
+#modalPriceBasic .modal-body form input::-webkit-input-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form input::-moz-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form input:-moz-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form input:-ms-input-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form textarea::-webkit-input-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form textarea::-moz-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form textarea:-moz-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body form textarea:-ms-input-placeholder {
+  color: #1f7eff;
+}
+
+#modalPriceBasic .modal-body .calc-cover {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+#modalPriceBasic .modal-body .calc-cover .calc-input {
+  flex-basis: 220px;
+  border: 1px solid #bce0fd;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#modalPriceBasic .modal-body .calc-cover .calc-input:first-child {
+  margin-left: 15px;
+}
+
+#modalPriceBasic .modal-body .calc-cover .calc-input:nth-child(2) {
+  margin-right: 15px;
+}
+
+#modalPriceBasic .modal-body .calc-cover .calc-input span {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: normal;
+  line-height: 1.20;
+  color: #1f7eff;
+  margin-top: 2px;
+}
+
+#modalPriceBasic .modal-body .calc-cover .calc-input input {
+  width: 40px;
+  height: 20px;
+  border: none;
+  font-size: 14px;
+  color: #1f7eff;
+  padding-left: 5px;
+}
+
+.calc-input input[type=number]::-webkit-inner-spin-button,
+.calc-input input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+#modalPriceBasic .modal-body .sendForm {
+  text-align: left;
+}
+
+#modalPriceBasic .modal-body .sendForm button {
+  width: 105px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #1f7eff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: normal;
+  line-height: 0.85;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#modalPriceBasic .choose-category select {
+  padding: 5px;
+  margin-left: -5px;
+  margin-bottom: 15px;
+  border-color: #b8d5f9;
+  color: #1f7eff;
+  font-size: 14px;
+  font-family: Roboto;
+  line-height: 1.21;
+}
