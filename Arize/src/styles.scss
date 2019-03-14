@@ -31,11 +31,10 @@
 
 
 body {
-  height: 5000px;
   font-family: Roboto;
 }
 
-h2 {
+.section-title {
   margin: 90px auto 50px;
   font-family: Roboto;
   text-transform: uppercase;
@@ -47,19 +46,19 @@ h2 {
 
 
 @media screen and (max-width: 1440px) {
-  h2 {
+  .section-title {
     font-size: 60px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
+  .section-title {
     font-size: 55px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  h2 {
+  .section-title {
     font-size: 35px;
   }
 }

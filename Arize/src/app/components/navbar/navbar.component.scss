@@ -1,26 +1,65 @@
-::ng-deep .navbar {
-  position: fixed;
-  z-index: 999;
-}
+ .arize-navbar {
+   width: 100%;
+   max-height: 70px;
+   border: none;
+   box-shadow: none;
+ }
 
-::ng-deep .gradient {
-  background-image: linear-gradient(to right,
-    #0e131c,
-    #0e131c,
-    #2155c3,
-    #2155c3);
-}
+ .logo {
+   width: auto;
+   height: 45px;
+   border: none;
+   margin-left: 14rem;
+ }
 
-.logo {
-  width: auto;
-  height: 45px;
-}
+ @media screen and (max-width: 992px) {
+   .logo {
+     margin-left: 5rem;
+   }
+ }
 
-.navbar-links {
-  margin-left: 30%;
-  color: white;
-}
+ @media screen and (max-width: 600px) {
+   .logo {
+     margin-left: 1rem;
+   }
+ }
 
-.navbar-nav {
-  color: white;
-}
+ .arize-navbar ul {
+   //  margin-left: 30%;
+   color: white;
+   margin: 0 auto;
+ }
+
+ .arize-navbar ul li {
+   margin-right: 10px;
+   font-family: Roboto;
+   font-weight: 400;
+   font-size: 16px;
+ }
+
+ .arize-navbar.in ul li {
+   text-align: center;
+ }
+
+ .arize-navbar::before {
+   position: absolute;
+   content: '';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   border: none;
+   background-image: linear-gradient(to right,
+     #0e131c,
+     #0e131c,
+     #2155c3,
+     #2155c3);
+   z-index: -1;
+   transition: opacity 0.5s linear;
+   opacity: 0;
+ }
+
+ .arize-navbar.gradient::before {
+   border: none;
+   opacity: 1;
+ }

@@ -15,11 +15,11 @@ import { WhyusComponent } from './components/whyus/whyus.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { SubscribeFormsComponent } from './components/subscribe-forms/subscribe-forms.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RecaptchaModule } from 'ng-recaptcha';
 import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
-import { BlogComponent } from './components/blog/blog.component';
 
 // import { Observable } from 'rxjs';
 
@@ -36,7 +36,7 @@ import { BlogComponent } from './components/blog/blog.component';
     PortfolioComponent,
     PricingComponent,
     SubscribeFormsComponent,
-    BlogComponent
+    BlogsComponent
   ],
   imports: [
     BrowserModule,
