@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "name": "Google Poly and Sketchfab",
+    "title": "Bring your Google Poly and Sketchfab content into ARize for free",
+    "date": "March 06, 2019",
+    "image": "../assets/img/blog_images/poly.jpg",
+    "content": "With the growth of Augmented and Virtual reality technology, the scope of 3D content’s implementation became wider than it used to be.Now, searching and discovering various 3D objects are not enough for their absolute and efficient implementation, that’s why AR and VR seem to become an integral part for 3D platforms such as, Google Poly and Sketchfab."
+  },
+  {
+    "id": 2,
+    "name": "Tilt Brush effects in ARize",
+    "title": "All the Tilt Brush effects in ARize",
+    "date": "February 27, 2019",
+    "image": "../assets/img/blog_images/tilt_brush.jpg",
+    "content": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists. It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible"
+  },
+  {
+    "id": 3,
+    "name": "Augmenting digital artworks with ARize",
+    "title": "Augmenting digital artworks with ARize",
+    "date": "February 20, 2019",
+    "image": "../assets/img/blog_images/augmented-digital-artworks.jpg",
+    "content": "For all times artists try to express their unlimited imagination in various creative ways. As a fact today augmented reality is one of those most popular and worthy technologies that artists combine with their artworks."
+  },
+  {
+    "id": 4,
+    "name": "Urban Art In VR",
+    "title": "I Challenged 18 Artists To Create The Future Of Urban Art In VR And They All Win ! (37 A R Pics)",
+    "date": "January 29, 2019",
+    "image": "../assets/img/blog_images/artworks_berlin.jpg",
+    "content": "Contemporary and traditional artists worked for the first time with Virtual Reality/Augmented Reality, creating a new form of urban art, writing a new chapter in Berlin’s art history."
+  }
+]

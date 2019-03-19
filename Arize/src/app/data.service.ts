@@ -19,4 +19,8 @@ export class DataService {
   public getPricing() {
     return this.http.get('../assets/json/pricing.json');
   }
+
+  public getBlogs() {
+    return this.http.get('../assets/json/blogs.json');
+  }
 }

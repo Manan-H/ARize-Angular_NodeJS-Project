@@ -26,6 +26,12 @@
     &:hover {
       color: white;
       background: linear-gradient(90deg, #6e3694, #5253c9, #6f22a5);
+      border: none;
+      box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
+      background-size: 400%;
+      transition: 0.5s;
+      opacity: 1;
+      animation: animateBtn 8s linear infinite;
     }
   }
 
@@ -35,7 +41,15 @@
   }
 }
 
+@keyframes animateBtn {
+  0% {
+    background-position: 0;
+  }
 
+  100% {
+    background-position: 400%;
+  }
+}
 
 .newPost {}
 

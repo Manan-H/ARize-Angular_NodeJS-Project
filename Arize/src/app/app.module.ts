@@ -20,8 +20,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RecaptchaModule } from 'ng-recaptcha';
 import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
-
-// import { Observable } from 'rxjs';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ContactComponent } from './components/contact/contact.component';
+import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactusFormsComponent } from './components/contactus-forms/contactus-forms.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { BlogArticleComponent } from './components/blog-article/blog-article.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,11 @@ import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
     PortfolioComponent,
     PricingComponent,
     SubscribeFormsComponent,
-    BlogsComponent
+    BlogsComponent,
+    ContactComponent,
+    ContactusFormsComponent,
+    PrivacyPolicyComponent,
+    BlogArticleComponent
   ],
   imports: [
     BrowserModule,
@@ -47,10 +56,14 @@ import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
     MDBBootstrapModule.forRoot(),
     FontAwesomeModule,
     RecaptchaModule.forRoot(),
-    RecaptchaFormsModule
-    // Observable
+    RecaptchaFormsModule,
+    ScrollToModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA83kW20SxRpEL7kMQX9UfQBPQmaDHw5q0'
+    }),
+    NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [GoogleMapsAPIWrapper],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

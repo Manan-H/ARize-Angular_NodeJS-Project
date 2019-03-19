@@ -8,15 +8,23 @@
     font-family: "Roboto", sans-serif;
     font-size: 30px;
     font-weight: 400;
-    line-height: 250px;
+    margin-top: 5%;
+
+
   }
 
   &-header {
-    height: 400px;
+    height: 250px;
     background: url(../../../assets/img/blog_images/aboutPageBackground.png) no-repeat;
-    background-position: 50% 150%;
+    background-position: 50% 80%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+
+  }
+
+  &-body {
     position: relative;
   }
 
@@ -74,6 +82,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 26px;
 
+
     & h4 {
       margin: 0 0 10px;
       padding: 0 0 10px;
@@ -85,13 +94,59 @@
       height: 51px;
       width: 151px;
       border-radius: 7px;
-      background: linear-gradient(90deg, #6e3694, #5253c9, #6f22a5);
       padding: 11px;
       padding-left: 32px;
       color: white;
       font-size: 20px;
       font-weight: 400;
+      background: linear-gradient(90deg, #6e3694, #5253c9, #6f22a5);
+      border: none;
+      box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
+      background-size: 400%;
+      transition: 0.5s;
+      opacity: 1;
+      animation: animateBtn 8s linear infinite;
     }
 
   }
+}
+
+@keyframes animateBtn {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .blogs-items {
+    margin-bottom: 53%;
+  }
+}
+
+@media screen and (min-width: 526px) and (max-width: 768px) {
+  .blogs-items {
+    margin-bottom: 37%;
+  }
+}
+
+// @media screen and (min-width: 1400px) {
+//   .blogs-body {
+//     transform: translateY(-2%);
+//   }
+// }
+
+// @media screen and (max-width: 1300px) {
+//   .blogs-header {
+//     height: 250px;
+//   }
+// }
+
+.bottom-margin {
+  top: auto;
+  bottom: 40px;
+  position: absolute;
 }

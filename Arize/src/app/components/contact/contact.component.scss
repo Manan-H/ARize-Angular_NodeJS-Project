@@ -1,0 +1,43 @@
+.contacts {
+  margin-top: 69px;
+
+  &-header {
+    height: 250px;
+    background: url(../../../assets/img/contact_us/contact_us.jpg) no-repeat;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 220px;
+    margin-bottom: 50px;
+
+
+    & p {
+      display: block;
+      text-align: center;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      margin: auto;
+    }
+  }
+
+  &-body {
+    font-family: Roboto;
+    font-weight: 400;
+
+    &-address {
+      margin-top: 20px;
+
+      &:first-child {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+agm-map {
+  height: 300px;
+}

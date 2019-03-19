@@ -22,6 +22,12 @@ export class NavbarComponent implements OnInit {
 
   ngDoCheck() {}
 
+  smoothScroll(element) {
+    document
+      .querySelector(element)
+      .scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   // doGradient(): void {
   //   let navbar = document.querySelector('.navbar');
   //   const number =
