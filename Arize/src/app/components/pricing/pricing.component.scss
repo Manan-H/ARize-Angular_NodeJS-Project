@@ -170,21 +170,25 @@
   border-radius: 42.5%;
   transform-origin: 50% 50%;
   transition: all 1s ease, top 1.5s ease;
+  z-index: 111;
 }
 
 .Coral button .Coralwave1 {
-  background: #4ab3e1;
-  animation: smallwave 4s infinite linear;
+  background: linear-gradient(-90deg, #75cff3, #4961d0);
+  animation: smallwave 8s infinite linear;
+  z-index: -1;
 }
 
 .Coral button .Coralwave2 {
-  background: #555ea9;
-  animation: smallwave 7s infinite linear;
+  background: linear-gradient(-90deg, #5e3dba, #4a60d0);
+  animation: smallwave 10s infinite linear;
+  z-index: -1;
 }
 
 .Coral button .Coralwave3 {
-  background: #d91c56;
-  animation: smallwave 9s infinite linear;
+  background: linear-gradient(-90deg, #6f1ea8, #d91555);
+  animation: smallwave 6s infinite linear;
+  z-index: -1;
 }
 
 .Coral button:hover {
@@ -214,17 +218,17 @@
 @keyframes smallwave {
   0% {
     transform: rotate(0deg) scale(1);
-    opacity: 0.4;
+    opacity: 0.9;
   }
 
   50% {
     transform: rotate(180deg) scale(0.95);
-    opacity: 0.2;
+    opacity: 0.7;
   }
 
   100% {
     transform: rotate(360deg) scale(1);
-    opacity: 0.4;
+    opacity: 0.9;
   }
 }
 
