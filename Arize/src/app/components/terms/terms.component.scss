@@ -1,0 +1,44 @@
+.terms {
+  margin-top: 69px;
+
+  & h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 4;
+    font-family: Panton;
+    font-weight: 500;
+    color: rgb(17, 28, 47);
+    text-align: center;
+  }
+
+  & h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Panton;
+    font-weight: 500;
+    color: #0b0b0b;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+
+  }
+
+  & h4 {
+    text-align: left;
+    line-height: 2.8;
+    color: #0b0b0b;
+    font-weight: 600;
+    font-family: Panton;
+    font-size: 19px;
+    margin: 10px 0 20px 0;
+  }
+
+  & p,
+  ol li {
+    text-align: justify;
+    color: rgb(17, 28, 47);
+    margin: 0 0 20px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+}

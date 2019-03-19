@@ -20,5 +20,7 @@ export class ContactComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    window.scrollTo(0, 0);
+  }
 }

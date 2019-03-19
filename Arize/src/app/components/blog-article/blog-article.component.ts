@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../../data.service';
+import { HostListener, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-blog-article',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog-article.component.scss']
 })
 export class BlogArticleComponent implements OnInit {
+  blogs: any = [];
 
-  constructor() { }
+  constructor(private dataService: DataService) {}
 
   ngOnInit() {
+    window.scrollTo(0, 0);
+    this.dataService.getBlogs().subscribe(data => {
+      return (this.blogs = data);
+    });
   }
-
 }

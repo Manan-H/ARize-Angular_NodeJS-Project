@@ -11,7 +11,7 @@
 
         <div *ngFor="let blog of blogs">
           <article class="blogs-post">
-            <a routerLink="blogs/id">
+            <a [routerLink]="['../blogs', blog.id]">
               <header>
                 <h2>{{blog.title}} </h2>
                 <div>

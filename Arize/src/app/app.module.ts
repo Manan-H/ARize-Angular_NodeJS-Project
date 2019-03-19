@@ -27,6 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactusFormsComponent } from './components/contactus-forms/contactus-forms.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { BlogArticleComponent } from './components/blog-article/blog-article.component';
+import { TermsComponent } from './components/terms/terms.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { BlogArticleComponent } from './components/blog-article/blog-article.com
     ContactComponent,
     ContactusFormsComponent,
     PrivacyPolicyComponent,
-    BlogArticleComponent
+    BlogArticleComponent,
+    TermsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
