@@ -11,7 +11,7 @@
 
         <div *ngFor="let blog of blogs">
           <article class="blogs-post">
-            <a [routerLink]="['../blogs', blog.id]">
+            <a [routerLink]="['/blogs', blog.id]" [queryParams]="{ name: blog.name, title: blog.title, date: blog.date, image: blog.image, content: blog.content}">
               <header>
                 <h2>{{blog.title}} </h2>
                 <div>

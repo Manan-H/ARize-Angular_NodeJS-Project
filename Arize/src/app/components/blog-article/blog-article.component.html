@@ -1,7 +1,45 @@
 <section class="blog-article">
-  <div *ngFor="let blog of blogs">
 
-    <h2>{{blog.title}}</h2>
+  <div class="container">
+    <div class="row">
 
+      <div class="col-md-1">
+
+      </div>
+      <div class="col-md-8">
+
+
+        <article class="blog-article-post">
+          <header>
+            <h2>{{title}} </h2>
+            <div>
+              <i class="fa fa-user"></i><span>ARize</span>
+              <i class="fa fa-clock-o"></i> <time>{{date}}</time>
+            </div>
+            <!-- post-details -->
+          </header>
+          <div class="post-image">
+            <img src={{image}} alt={{title}}>
+          </div>
+          <!-- post-image -->
+          <div class="container">
+            <p> {{content}}
+          </div>
+        </article>
+
+
+
+
+      </div>
+      <div class="col-md-3">
+        <div class="blog-article-subscribe">
+          <h4>Join our Mailing List</h4>
+          <p>Keep up-to-date with the latest news.</p>
+          <a class=" subscribe-modal gradient-btn" data-toggle="modal" data-target="#myModal">Subscribe</a>
+        </div>
+      </div>
+    </div>
   </div>
+
+
 </section>

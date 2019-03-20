@@ -1,3 +1,105 @@
 .blog-article {
-  margin-top: 69px;
+  margin-top: 73px;
+
+  &-post {
+    position: relative;
+    border: solid 1px #ddd;
+    margin: 0 0 40px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+
+    & header {
+      text-align: center;
+    }
+
+    & h2,
+    span,
+    time {
+      font-weight: 500;
+    }
+
+    & i {
+      margin-right: 5px;
+    }
+
+    & span {
+      margin-right: 8px;
+    }
+
+    & p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: rgb(17, 28, 47);
+      text-align: justify;
+      font-weight: 400;
+    }
+
+    & img {
+      width: 100%;
+      margin-bottom: 15px;
+      margin-top: 10px;
+    }
+  }
+
+  &-subscribe {
+    position: fixed;
+    height: 180px;
+    width: 312px;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 26px;
+
+
+    & h4 {
+      margin: 0 0 10px;
+      padding: 0 0 10px;
+      border-bottom: solid 1px #ddd;
+    }
+
+    & a {
+      display: inline-block;
+      height: 51px;
+      width: 151px;
+      border-radius: 7px;
+      padding: 11px;
+      padding-left: 32px;
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      background: linear-gradient(90deg, #6e3694, #5253c9, #6f22a5);
+      border: none;
+      box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
+      background-size: 400%;
+      transition: 0.5s;
+      opacity: 1;
+      animation: animateBtn 8s linear infinite;
+    }
+
+  }
+}
+
+@keyframes animateBtn {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+
+// @media screen and (max-width: 1400px) {
+//   .blog-article {
+//     margin-bottom: 12rem;
+//   }
+// }
+
+
+.bottom-margin {
+  top: auto;
+  bottom: 40px;
+  position: absolute;
 }

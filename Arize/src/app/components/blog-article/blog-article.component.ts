@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../../data.service';
 import { HostListener, Inject } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-blog-article',
@@ -8,14 +8,43 @@ import { HostListener, Inject } from '@angular/core';
   styleUrls: ['./blog-article.component.scss']
 })
 export class BlogArticleComponent implements OnInit {
-  blogs: any = [];
+  id: number;
+  name: string;
+  title: string;
+  date: string;
+  image: string;
+  content: string;
 
-  constructor(private dataService: DataService) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     window.scrollTo(0, 0);
-    this.dataService.getBlogs().subscribe(data => {
-      return (this.blogs = data);
+
+    this.route.params.subscribe((params: Params) => {
+      this.id = +params['id'];
     });
+
+    this.route.queryParams.subscribe((params: Params) => {
+      this.name = params['name'];
+      this.title = params['title'];
+      this.date = params['date'];
+      this.image = params['image'];
+      this.content = params['content'];
+    });
+  }
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    let sideSubscribe = document.querySelector('.blog-article-subscribe');
+    const number =
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop ||
+      0;
+    if (number < 2000) {
+      sideSubscribe.classList.remove('bottom-margin');
+    } else {
+      sideSubscribe.classList.add('bottom-margin');
+    }
   }
 }
