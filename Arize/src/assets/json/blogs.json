@@ -1,33 +1,209 @@
 [{
-    "id": 1,
-    "name": "Google Poly and Sketchfab",
-    "title": "Bring your Google Poly and Sketchfab content into ARize for free",
-    "date": "March 06, 2019",
-    "image": "../assets/img/blog_images/poly.jpg",
-    "content": "With the growth of Augmented and Virtual reality technology, the scope of 3D content’s implementation became wider than it used to be.Now, searching and discovering various 3D objects are not enough for their absolute and efficient implementation, that’s why AR and VR seem to become an integral part for 3D platforms such as, Google Poly and Sketchfab."
-  },
-  {
-    "id": 2,
-    "name": "Tilt Brush effects in ARize",
-    "title": "All the Tilt Brush effects in ARize",
+    "id": 4997,
+    "title": "asdsaTilt Brush effects in ARize",
     "date": "February 27, 2019",
     "image": "../assets/img/blog_images/tilt_brush.jpg",
-    "content": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists. It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible"
+    "intro": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+      {
+        "type": "video",
+        "position": "left",
+        "src": "../assets/video/goldFish1.mp4",
+        "videoTitle": "the title of this vid"
+      },
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+
+      {
+        "type": "text",
+        "position": "left",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+      {
+        "type": "photo",
+        "position": "right",
+        "src": "../assets/img/why_us_images/screenshot1.jpg",
+        "photoTitle": "the title of this pic"
+      },
+      {
+        "type": "card",
+        "position": "full",
+        "background": "#0e131c",
+        "src": "../assets/img/why_us_images/screenshot1.jpg",
+        "photoTitle": "the title of this pic",
+        "callToAction": "Want to become a Community Member?",
+        "btnBackground": "#6e3694"
+      }
+    ]
   },
   {
-    "id": 3,
-    "name": "Augmenting digital artworks with ARize",
-    "title": "Augmenting digital artworks with ARize",
-    "date": "February 20, 2019",
-    "image": "../assets/img/blog_images/augmented-digital-artworks.jpg",
-    "content": "For all times artists try to express their unlimited imagination in various creative ways. As a fact today augmented reality is one of those most popular and worthy technologies that artists combine with their artworks."
+    "id": 4998,
+    "title": "Tilt Brush effects in ARize",
+    "date": "February 27, 2019",
+    "image": "../assets/img/blog_images/tilt_brush.jpg",
+    "intro": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+    "outSrc": "https://codecraft.tv/courses/angular/built-in-directives/ngstyle-and-ngclass/",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+      {
+        "type": "video",
+        "position": "left",
+        "src": "../assets/video/goldFish1.mp4",
+        "videoTitle": "the title of this vid"
+      },
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+
+      {
+        "type": "text",
+        "position": "left",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+      {
+        "type": "photo",
+        "position": "right",
+        "src": "../assets/img/why_us_images/screenshot1.jpg",
+        "photoTitle": "the title of this pic"
+      },
+      {
+        "type": "card",
+        "position": "full",
+        "background": "#0e131c",
+        "src": "../assets/img/why_us_images/screenshot1.jpg",
+        "photoTitle": "the title of this pic",
+        "callToAction": "Want to become a Community Member?",
+        "btnBackground": "#6e3694"
+      }
+    ]
   },
   {
-    "id": 4,
-    "name": "Urban Art In VR",
-    "title": "I Challenged 18 Artists To Create The Future Of Urban Art In VR And They All Win ! (37 A R Pics)",
-    "date": "January 29, 2019",
-    "image": "../assets/img/blog_images/artworks_berlin.jpg",
-    "content": "Contemporary and traditional artists worked for the first time with Virtual Reality/Augmented Reality, creating a new form of urban art, writing a new chapter in Berlin’s art history."
+    "id": 4999,
+    "title": "Tilt Brush effects in ARize",
+    "date": "February 27, 2019",
+    "image": "../assets/img/blog_images/tilt_brush.jpg",
+    "intro": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+      {
+        "type": "video",
+        "position": "left",
+        "src": "../assets/video/goldFish1.mp4",
+        "videoTitle": "the title of this vid"
+      },
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+
+      {
+        "type": "text",
+        "position": "left",
+        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+
+        ]
+      },
+      {
+        "type": "photo",
+        "position": "right",
+        "src": "../assets/img/why_us_images/screenshot1.jpg",
+        "photoTitle": "the title of this pic"
+      },
+      {
+        "type": "card",
+        "position": "full",
+        "background": "#0e131c",
+        "src": "../assets/img/why_us_images/screenshot1.jpg",
+        "photoTitle": "the title of this pic",
+        "callToAction": "Want to become a Community Member?",
+        "btnBackground": "#6e3694"
+      }
+    ]
+  },
+  {
+    "id": 10000,
+    "title": "THE MORE YOU IMAGINE, THE MORE YOU GET",
+    "date": "July 14, 2016",
+    "image": "../assets/img/blog_images/imagination.png",
+    "intro": "Have you ever thought that one day you may have the possibility to realize all your imaginary ideas? Guess what? Now ARize gives you that opportunity. ARize is an easy to use augmented reality creation and viewing platform. ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["First, let’s understand clearly what augmented reality is.", "Augmented reality is an enhanced version of reality created by the use of technology to show you additional information as a digital overlay on any object being viewed through a device (such as a smartphone camera or a smart glass). In other words, augmented reality uses the existing environment and overlays new information on top of it.", "So, after dealing with the AR definition, we can discover the greatness of ARize. What is great about ARize, is that we provide a user-free platform, which allows regular users to create an AR experience for business purposes or just for fun. With our platform you can scan your environment and see different augmented objects (3D model - image - video) in your real world and interact with them. We have developed different types of augmented reality apps (Marker Base or Marker Less), besides we have developed different products on AR technology, like video mapping, hidden museum and AR games (by order). "]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post2pic1.png",
+        "photoTitle": ""
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post2pic2.png",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["As you can see, the usage of the platform has no limits: it can be applied in the construction industry, in marketing, education, interior design, entertainment, art etc.", "Our team is working on an augmented reality platform that would act like a social network based on augmented reality and that allows users to create their own AR with just 3 simple steps."]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post2pic3.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["Our company was founded on 1st of March 2016 in Armenia, and our augmented reality Beta version is coming soon! For getting the Beta version and testing augmented reality, all you need to do is to visit our web page ARize and insert your E-mail address, we will then send you the application! And also you can follow our page on Linkedin and be informed about the news txt.link('https://www.w3schools.com')  <a href=\"http://www.google.com\">here</a>  . Our goal is to improve visualization processes by changing the way people interact with mobile devices (tablet – smartphone –smart glass). ARize is not only about the application or platform, it’s about making your imagination real. The only thing you have to do is to challenge your imaginary power."]
+      }
+    ]
   }
+
 ]

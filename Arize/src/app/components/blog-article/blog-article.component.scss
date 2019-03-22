@@ -1,5 +1,5 @@
 .blog-article {
-  margin-top: 73px;
+  margin-top: 80px;
 
   &-post {
     position: relative;
@@ -11,20 +11,20 @@
 
     & header {
       text-align: center;
-    }
 
-    & h2,
-    span,
-    time {
-      font-weight: 500;
-    }
+      & h2,
+      span,
+      time {
+        font-weight: 500;
+      }
 
-    & i {
-      margin-right: 5px;
-    }
+      & i {
+        margin-right: 5px;
+      }
 
-    & span {
-      margin-right: 8px;
+      & span {
+        margin-right: 8px;
+      }
     }
 
     & p {
@@ -37,13 +37,18 @@
 
     & img {
       width: 100%;
-      margin-bottom: 15px;
       margin-top: 10px;
     }
+
+    & .card {
+      text-align: center;
+    }
+
+
+
   }
 
   &-subscribe {
-    position: fixed;
     height: 180px;
     width: 312px;
     border-radius: 4px;
@@ -91,15 +96,55 @@
 }
 
 
-// @media screen and (max-width: 1400px) {
-//   .blog-article {
-//     margin-bottom: 12rem;
-//   }
-// }
+.callToAction {
+  padding-top: 25%;
 
+  & h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Panton;
+    text-align: center;
+  }
+
+  & input {
+    width: 90%;
+    height: 50px;
+    color: white;
+    border: none;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+}
 
 .bottom-margin {
   top: auto;
-  bottom: 40px;
+  bottom: 395px;
   position: absolute;
+}
+
+
+@media screen and (min-width: 768px) {
+  .card img {
+    margin-left: 0.5rem;
+  }
+
+  .callToAction {
+    padding-left: 0;
+  }
+
+  .blog-article-subscribe {
+    position: fixed;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .bottom-margin {
+    top: unset;
+    bottom: unset;
+    position: unset;
+  }
 }

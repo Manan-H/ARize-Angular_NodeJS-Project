@@ -1,37 +1,90 @@
 <section class="blog-article">
 
-  <div class="container">
+  <div class="container" *ngFor="let blog of post">
     <div class="row">
 
-      <div class="col-md-1">
-
-      </div>
       <div class="col-md-8">
 
 
         <article class="blog-article-post">
+
+          <!-- blog header -->
           <header>
-            <h2>{{title}} </h2>
+            <h2>{{blog.title}} </h2>
             <div>
               <i class="fa fa-user"></i><span>ARize</span>
-              <i class="fa fa-clock-o"></i> <time>{{date}}</time>
+              <i class="fa fa-clock-o"></i> <time>{{blog.date}}</time>
+              <div class="post-image">
+                <img src={{blog.image}} alt={{blog.title}}>
+              </div>
             </div>
-            <!-- post-details -->
           </header>
-          <div class="post-image">
-            <img src={{image}} alt={{title}}>
-          </div>
-          <!-- post-image -->
+
+          <!-- blog body -->
           <div class="container">
-            <p> {{content}}
+            <div *ngIf="blog.intro.length">
+              <p>{{blog.intro}}</p>
+            </div>
+
+            <div class="row">
+
+              <div *ngFor="let content of blog.content" [ngClass]="{
+                'col-lg-12':content.position === 'full',
+                'col-lg-6':content.position !== 'full'
+               }">
+
+
+                <div *ngIf="content.type === 'text'">
+                  <div *ngFor="let p of content.src">
+                    <p>{{p}}</p>
+                  </div>
+                </div>
+
+
+                <div *ngIf="content.type === 'photo'">
+                  <img src={{content.src}} alt="">
+                  <p style="text-align:center; font-size: 13px;"> <em><b>{{content.photoTitle}}</b></em></p>
+                </div>
+
+
+                <div *ngIf="content.type === 'video'">
+                  <video width="100%" controls autoplay>
+                    <source src={{content.src}} type="video/mp4">
+                  </video>
+                  <p style="text-align:center; font-size: 13px;"> <em><b>{{content.videoTitle}}</b></em></p>
+                </div>
+
+
+                <div *ngIf="content.type === 'card'" class="card"
+                  [ngStyle]="{'background':getBackground(content.background)}">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src={{content.src}} alt="">
+                      <p style="text-align:center; font-size: 13px; color: #eae6e6;">
+                        <em><b>{{content.photoTitle}}</b></em></p>
+                    </div>
+                    <div class="col-md-6 callToAction">
+                      <h2 class="">{{content.callToAction}}</h2>
+                      <input type="button" value="Click Me"
+                        [ngStyle]="{'background':getBackground(content.btnBackground)}">
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+
+
+
+
           </div>
         </article>
 
 
-
-
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="blog-article-subscribe">
           <h4>Join our Mailing List</h4>
           <p>Keep up-to-date with the latest news.</p>

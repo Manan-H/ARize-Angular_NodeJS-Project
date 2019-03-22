@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HostListener, Inject } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
+import { DataService } from '../../data.service';
 
 @Component({
   selector: 'app-blog-article',
@@ -8,14 +9,14 @@ import { ActivatedRoute, Params } from '@angular/router';
   styleUrls: ['./blog-article.component.scss']
 })
 export class BlogArticleComponent implements OnInit {
-  id: number;
-  name: string;
-  title: string;
-  date: string;
-  image: string;
-  content: string;
+  blogs: any = [];
+  post: any;
+  id: any;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private dataService: DataService
+  ) {}
 
   ngOnInit() {
     window.scrollTo(0, 0);
@@ -24,13 +25,19 @@ export class BlogArticleComponent implements OnInit {
       this.id = +params['id'];
     });
 
-    this.route.queryParams.subscribe((params: Params) => {
-      this.name = params['name'];
-      this.title = params['title'];
-      this.date = params['date'];
-      this.image = params['image'];
-      this.content = params['content'];
+    this.dataService.getBlogs().subscribe(data => {
+      this.blogs = data;
+
+      this.post = this.blogs.filter(post => {
+        return post.id === this.id;
+      });
+      console.log(this.post);
+      console.log(this.post[0].content[0].typE);
     });
+  }
+
+  getBackground(color) {
+    return color;
   }
 
   @HostListener('window:scroll', [])
@@ -41,7 +48,7 @@ export class BlogArticleComponent implements OnInit {
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;
-    if (number < 2000) {
+    if (number < 100) {
       sideSubscribe.classList.remove('bottom-margin');
     } else {
       sideSubscribe.classList.add('bottom-margin');

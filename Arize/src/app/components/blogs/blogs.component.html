@@ -10,26 +10,42 @@
       <div class="col-md-8 blogs-items">
 
         <div *ngFor="let blog of blogs">
-          <article class="blogs-post">
-            <a [routerLink]="['/blogs', blog.id]" [queryParams]="{ name: blog.name, title: blog.title, date: blog.date, image: blog.image, content: blog.content}">
+          <article *ngIf="blog.outSrc === ''" class="blogs-post">
+            <a [routerLink]="['/blogs', blog.id]">
               <header>
                 <h2>{{blog.title}} </h2>
                 <div>
                   <i class="fa fa-user"></i><span itemprop="creator">ARize</span>
                   <i class="fa fa-clock-o"></i> <time itemprop="dateCreated">{{blog.date}}</time>
                 </div>
-                <!-- post-details -->
               </header>
               <div class="post-image">
                 <img src={{blog.image}} alt={{blog.title}}>
               </div>
-              <!-- post-image -->
               <div>
-                <p itemprop="material"> {{blog.content}} ...
+                <p itemprop="material"> {{blog.intro}} ...
                   <a class="continue-reading" href="#" target="_blank" itemprop="mainEntityOfPage">continue reading
                     &raquo;</a></p>
               </div>
-              <!-- post-excerpt -->
+            </a>
+          </article>
+          <article *ngIf="blog.outSrc.length" class="blogs-post">
+            <a href={{blog.outSrc}}>
+              <header>
+                <h2>{{blog.title}} </h2>
+                <div>
+                  <i class="fa fa-user"></i><span itemprop="creator">ARize</span>
+                  <i class="fa fa-clock-o"></i> <time itemprop="dateCreated">{{blog.date}}</time>
+                </div>
+              </header>
+              <div class="post-image">
+                <img src={{blog.image}} alt={{blog.title}}>
+              </div>
+              <div>
+                <p itemprop="material"> {{blog.intro}} ...
+                  <a class="continue-reading" href="#" target="_blank" itemprop="mainEntityOfPage">continue reading
+                    &raquo;</a></p>
+              </div>
             </a>
           </article>
         </div>
