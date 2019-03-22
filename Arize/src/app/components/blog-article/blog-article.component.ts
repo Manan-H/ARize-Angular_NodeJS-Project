@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HostListener, Inject } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../data.service';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-blog-article',
@@ -15,7 +16,8 @@ export class BlogArticleComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private dataService: DataService
+    private dataService: DataService,
+    public sanitizer: DomSanitizer
   ) {}
 
   ngOnInit() {
@@ -48,7 +50,7 @@ export class BlogArticleComponent implements OnInit {
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;
-    if (number < 100) {
+    if (number < 1900) {
       sideSubscribe.classList.remove('bottom-margin');
     } else {
       sideSubscribe.classList.add('bottom-margin');

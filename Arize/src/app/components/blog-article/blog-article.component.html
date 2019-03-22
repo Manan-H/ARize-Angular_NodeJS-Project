@@ -12,19 +12,16 @@
           <header>
             <h2>{{blog.title}} </h2>
             <div>
-              <i class="fa fa-user"></i><span>ARize</span>
+              <i class="fa fa-user"></i><span>{{blog.author}}</span>
               <i class="fa fa-clock-o"></i> <time>{{blog.date}}</time>
               <div class="post-image">
-                <img src={{blog.image}} alt={{blog.title}}>
+                <img src={{blog.image}} alt={{blog.title}} style="margin-bottom: 50px">
               </div>
             </div>
           </header>
 
           <!-- blog body -->
           <div class="container">
-            <div *ngIf="blog.intro.length">
-              <p>{{blog.intro}}</p>
-            </div>
 
             <div class="row">
 
@@ -36,7 +33,7 @@
 
                 <div *ngIf="content.type === 'text'">
                   <div *ngFor="let p of content.src">
-                    <p>{{p}}</p>
+                    <p [innerHTML]="p"></p>
                   </div>
                 </div>
 
@@ -52,6 +49,16 @@
                     <source src={{content.src}} type="video/mp4">
                   </video>
                   <p style="text-align:center; font-size: 13px;"> <em><b>{{content.videoTitle}}</b></em></p>
+                </div>
+
+                <div *ngIf="content.type === 'iframe'">
+                  <iframe width="100%" height="350px" [src]='sanitizer.bypassSecurityTrustResourceUrl(content.src)'>
+                  </iframe>
+                  <p style="text-align:center; font-size: 13px;"> <em><b>{{content.videoTitle}}</b></em></p>
+                </div>
+
+                <div *ngIf="content.type === 'form'">
+                  <app-contactus-forms></app-contactus-forms>
                 </div>
 
 

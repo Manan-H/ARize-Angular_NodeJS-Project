@@ -17,6 +17,8 @@ export class BlogsComponent implements OnInit {
     this.dataService.getBlogs().subscribe(data => {
       return (this.blogs = data);
     });
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.add('gradient');
   }
 
   @HostListener('window:scroll', [])

@@ -1,5 +1,5 @@
 [{
-    "id": 4997,
+    "id": 1,
     "title": "asdsaTilt Brush effects in ARize",
     "date": "February 27, 2019",
     "image": "../assets/img/blog_images/tilt_brush.jpg",
@@ -54,118 +54,511 @@
     ]
   },
   {
-    "id": 4998,
-    "title": "Tilt Brush effects in ARize",
+    "id": 9982,
+    "title": "All the Tilt Brush effects in ARize",
+    "author": "ARize",
     "date": "February 27, 2019",
     "image": "../assets/img/blog_images/tilt_brush.jpg",
-    "intro": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-    "outSrc": "https://codecraft.tv/courses/angular/built-in-directives/ngstyle-and-ngclass/",
+    "intro": "For all times artists try to express their unlimited imagination in various creative ways. As a fact today augmented reality is one of those most popular and worthy technologies that artists combine with their artworks... ",
+    "outSrc": "",
     "content": [{
+        "type": "video",
+        "position": "left",
+        "src": "../assets/video/augmented-digital-artworks2.MOV",
+        "videoTitle": "'Deep Sea Dream' created by Miguelangelo Rosario"
+      },
+      {
         "type": "text",
-        "position": "full",
-        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
-
-        ]
+        "position": "right",
+        "src": ["For all times artists try to express their unlimited imagination in various creative ways. As a fact today augmented reality is one of those most popular and worthy technologies that artists combine with their artworks. Nowadays artists are experimenting with AR technology to highlight their art— <b>moving from the physical to the digital, from digital to the augment</b>  and ARize as a community driven AR platform, welcomes every type of digital artists to experiment their artworks in AR/VR mode. It opens up a big opportunity for all digital artists to show off their artworks in an affordable way."]
+      },
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["ARize as a new and immersive AR platform is capable to support every type of digital creation. Any kind of 2D/3D animation with any type of brushes and effects can be integrated into ARize platform and smoothly delivered to the recipients. No special devices are required for delivering the digital artworks to the audience,simply because ARize is an all in one AR platform that can be implemented for launching art exhibitions whenever and wherever you wish, without any expenses.", "Some talented and famous digital artists have already successfully implemented ARize platform for showing off their creative artworks and gained awesome feedbacks from the audience."]
       },
       {
         "type": "video",
-        "position": "left",
-        "src": "../assets/video/goldFish1.mp4",
-        "videoTitle": "the title of this vid"
-      },
-      {
-        "type": "text",
         "position": "right",
-        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
-
-        ]
-      },
-
-      {
-        "type": "text",
-        "position": "left",
-        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
-
-        ]
-      },
-      {
-        "type": "photo",
-        "position": "right",
-        "src": "../assets/img/why_us_images/screenshot1.jpg",
-        "photoTitle": "the title of this pic"
+        "src": "../assets/video/augmented-digital-artworks3.mp4",
+        "videoTitle": "'Tilt-Bot Groove' created by Miguelangelo Rosario"
       },
       {
         "type": "card",
         "position": "full",
-        "background": "#0e131c",
-        "src": "../assets/img/why_us_images/screenshot1.jpg",
-        "photoTitle": "the title of this pic",
-        "callToAction": "Want to become a Community Member?",
-        "btnBackground": "#6e3694"
+        "background": "#1a132b",
+        "src": "../assets/img/blog_images/augmented-digital-artwork.jpg",
+        "photoTitle": "'Ice Cream Truck 3D' created by Olga Nabatova",
+        "callToAction": "Want to bring your artworks to life with ARize augmented reality platform?",
+        "btnBackground": "#bb00b4"
       }
     ]
   },
   {
-    "id": 4999,
-    "title": "Tilt Brush effects in ARize",
-    "date": "February 27, 2019",
-    "image": "../assets/img/blog_images/tilt_brush.jpg",
-    "intro": "Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible Tilt Brush is one of the most popular creation tools among virtual reality artists.",
+    "id": 9983,
+    "title": "Augmenting digital artworks with ARize",
+    "author": "ARize",
+    "date": "February 20, 2019",
+    "image": "../assets/img/blog_images/augmented-digital-artworks.jpg",
+    "intro": "For all times artists try to express their unlimited imagination in various creative ways. As a fact today augmented reality is one of those most popular and worthy technologies that artists combine with their artworks... ",
     "outSrc": "",
     "content": [{
-        "type": "text",
-        "position": "full",
-        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
-
-        ]
-      },
-      {
         "type": "video",
         "position": "left",
-        "src": "../assets/video/goldFish1.mp4",
-        "videoTitle": "the title of this vid"
+        "src": "../assets/video/augmented-digital-artworks2.MOV",
+        "videoTitle": "'Deep Sea Dream' created by Miguelangelo Rosario"
       },
       {
         "type": "text",
         "position": "right",
-        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
-
-        ]
+        "src": ["For all times artists try to express their unlimited imagination in various creative ways. As a fact today augmented reality is one of those most popular and worthy technologies that artists combine with their artworks. Nowadays artists are experimenting with AR technology to highlight their art— <b>moving from the physical to the digital, from digital to the augment</b>  and ARize as a community driven AR platform, welcomes every type of digital artists to experiment their artworks in AR/VR mode. It opens up a big opportunity for all digital artists to show off their artworks in an affordable way."]
       },
-
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["ARize as a new and immersive AR platform is capable to support every type of digital creation. Any kind of 2D/3D animation with any type of brushes and effects can be integrated into ARize platform and smoothly delivered to the recipients. No special devices are required for delivering the digital artworks to the audience,simply because ARize is an all in one AR platform that can be implemented for launching art exhibitions whenever and wherever you wish, without any expenses.", "Some talented and famous digital artists have already successfully implemented ARize platform for showing off their creative artworks and gained awesome feedbacks from the audience."]
+      },
+      {
+        "type": "video",
+        "position": "right",
+        "src": "../assets/video/augmented-digital-artworks3.mp4",
+        "videoTitle": "'Tilt-Bot Groove' created by Miguelangelo Rosario"
+      },
+      {
+        "type": "card",
+        "position": "full",
+        "background": "#1a132b",
+        "src": "../assets/img/blog_images/augmented-digital-artwork.jpg",
+        "photoTitle": "'Ice Cream Truck 3D' created by Olga Nabatova",
+        "callToAction": "Want to bring your artworks to life with ARize augmented reality platform?",
+        "btnBackground": "#bb00b4"
+      }
+    ]
+  },
+  {
+    "id": 9984,
+    "title": "I Challenged 18 Artists To Create The Future Of Urban Art In V R And They All Win ! (37 A R Pics)",
+    "author": "ARize",
+    "date": "January 29, 2019",
+    "image": "../assets/img/blog_images/artists-challenge.jpg",
+    "intro": "Contemporary and traditional artists worked for the first time with Virtual Reality/Augmented Reality, creating a new form of urban art, writing a new chapter in Berlin’s art history... ",
+    "outSrc": "https://www.boredpanda.com/1-vr-coach-18-artists-create-the-future-of-urban-art/?fbclid=IwAR3fTim3glhGi3lEm_5MCnONpjQ3e3I39NEnjTHhIFBWrF0K2DMThwfCkRY&utm_source=facebook&utm_medium=social&utm_campaign=organic",
+    "content": []
+  },
+  {
+    "id": 9985,
+    "title": "The artworks of Berlin's first VR art challenge: Off the Wall were coming to life with ARize",
+    "author": "ARize",
+    "date": "January 18, 2019",
+    "image": "../assets/img/blog_images/artworks_berlin.jpg",
+    "intro": "On 18th of January in the VR Lounge Berlin first of its kind competition Berlin's first VR art challenge: Off the Wall took place. It was a unique event where talented artists were competing with their VR and AR artworks... ",
+    "outSrc": "",
+    "content": [{
+        "type": "video",
+        "position": "left",
+        "src": "../assets/video/artworks_berlin1.mp4",
+        "videoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["On 18th of January in the VR Lounge Berlin first of its kind competition Berlin's first VR art challenge: Off the Wall took place. It was a unique event where talented artists were competing with their VR and AR artworks. All the artworks where showcased with Arize augmented reality platform.", "The kickoff event was in September 2018. In the VR Lounge Berlin, an experienced VR art coach introduced all the necessary tools for AR and VR artworks creation to well-known Berlin Street Artists."]
+      },
       {
         "type": "text",
         "position": "left",
-        "src": ["Not a secret that Tilt Brush is one of the most popular creation tools among virtual reality artists.",
-          "It is also a very useful tool for 3D artists who can find and use any kind of brush effect to bring their digital creation as close to the real one as it’s possible", "Tilt Brush is one of the most popular creation tools among virtual reality artists."
+        "src": ["The main mission of the event was to bring the urban art to a new level with AR and VR technologies. This opened a new chapter in Berlin's art history. 'Off the Wall' was organized by Creators get Grover and VR artist Miguelangelo Rosario to show how much creativity can be unleashed by this new medium in urban art.", "The role of ARize platform in this competition was to back up the event with AR technology and provide the support, which organizers and artists were looking for, to bring their Digital artworks to life in real world and environment. This was a great example how the barriers can be broken by using AR to connect Digital and physical artworks."]
+      },
+      {
+        "type": "video",
+        "position": "right",
+        "src": "../assets/video/artworks_berlin2.mp4",
+        "videoTitle": ""
+      }
+    ]
+  },
+  {
+    "id": 9986,
+    "title": "Ծանոթանում ենք Երևանի պատմությանը լրացված իրականության միջոցով",
+    "author": "ARize",
+    "date": "October 30, 2018",
+    "image": "../assets/img/blog_images/school.jpg",
+    "intro": "Այս տարի Հոկտեմբերի 26-ին Երևանի 2800 տարեկանի կապակցությամբ Ջոն Կիրակոսյանի անվան դպրոցը կրկին կազմակերպել էր արդեն ավանդույթ դարձած մի հետաքրքիր միջոցառում, որին հավատարիմ է մնում ամեն տարի... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Այս տարի Հոկտեմբերի 26-ին Երևանի 2800 տարեկանի կապակցությամբ Ջոն Կիրակոսյանի անվան դպրոցը կրկին կազմակերպել էր արդեն ավանդույթ դարձած մի հետաքրքիր միջոցառում, որին հավատարիմ է մնում ամեն տարի:", "Միջոցառումն իրենից ներկայացնում է հետաքրքիր հանդիպումներ հայտնի և սիրված Երևանցիների և դպրոցի աշակերտների միջև: Միջոցառմանը ներկա էին ոչ միայն հայտնի արտիստներ, այլև տարբեր բնագավառների ներկայացուցիչներ, որոնցից անմասն չմնաց նաև «լրացված իրականություն տեխնոլոգիան» ներկայացնող ARize կազմակերպությունը:"]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/school3.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["Հանդիպման ընթացքում բոլոր դասարաններում զրույցի և քննարկման հիմնական թեման, իհարկե, Երևանն էր և նրա անցած ուղղին: Յուրաքանչյուր դասարանում այդ մեկ դասաժամը անցակցվեց տարբեր կերպ:", "<b>ARize</b> կազմակերպությունը նախապես պատրաստել էր շատ հետաքրքիր և ինտերակտիվ խաղ 3-րդ դասարանի սաների համար, որը իրենից ներկայացնում էր ուսուցողական ծրագիր ՝ թե հին ու նոր Երևանի բացահայտման և թե լրացված իրականության տեխնոլոգիային ծանոթանալու տեսանկյունից: Որպեսզի աշակերտներին ակտիվ ձևով ներգրավեինք քննարկումների մեջ, մենք նախապես ընտրել էինք Երևանի ամենահայտնի տարածքերի և շինությունների նկարները 20-րդ դարից և մերօրյա ժամանակներից, որոնք ենթարկվել են փոփոխության այս տարիների ընթացքում, իսկ ոմանք նույնիսկ անճանաչելի են դարձել:"]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/school2.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["Երեխաները նախ և առաջ պետք է ուշադիր նայեին նախորդ դարից վերցված նկարը և փորձեին գուշակել, թե ո՞ր տարածքը կամ շինությունն է պատկերված նկարում: Չգուշակելու դեպքում <b>ARize</b> հավելվածի օգնությամբ երեխաները սկանավորում և տեսնում էին իրենց հեռախոսների էկրաններին այդ նույն տարածքի կամ շինության այժմյան տեսքը:", "Աշակերտները շատ տպավորված էին թե <b>ARize</b>-ի տեխնոլոգիական լուծումներով և թե դրա շնորհիվ Երևանում տեղի ունեցած փոփոխությունները տեսնելու հնարավորությամբ: Միջոցառման ընթացքում մեծ բավականություն ստացան ոչ միայն աշակերտները, այլ նաև մենք, տեսնելով նրանց կողմից մեծ ոգևորություն և հետաքրքրություն:"]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/school1.jpg",
+        "photoTitle": ""
+      }
+    ]
+  },
+  {
+    "id": 9987,
+    "title": "Augmented Reality become a reseller",
+    "author": "ARize",
+    "date": "October 23, 2018",
+    "image": "../assets/img/blog_images/become_reseller.jpg",
+    "intro": "We are a fast growing AR startup company in our own market segment and we are looking for enthusiastic resellers in various countries. Our resellers might become IT companies/ Marketing agencies as well as individuals who are interested in... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["<b>Join ARize's reseller team</b>", "We are a fast growing AR startup company in our own market segment and we are looking for enthusiastic resellers in various countries. Our resellers might become IT companies/ Marketing agencies as well as individuals who are interested in.", "<b>By becoming an ARize reseller is beneficial for you from several perspectives.</b>", "<ul> <li>you’ll have an opportunity to be integrated into our system with easy to use solutions & new ways of working and learning</li><li>working with us means you’ll have a unique opportunity to join a dynamic and international team of professionals</li><li>you’ll be responsible for the sales of our service in your territory, and will run your own sales and marketing activities, keeping you in full control of your own success</li> <li>you’ll be able to create new revenue stream for you or your agency, having an advantage over your competitors, providing innovation and keeping your clients happy</li> <li>as well as you will have a chance to make your portfolio even more impressive</li> </ul>", "We are here to help you whenever you need, in order to grow the business for both of us. We believe that ARize’s KSF is to satisfy our customer needs by integrating resellers like you! We support our channel network through a comprehensive set of programs and services, ensuring that a partnership with ARize is both profitable and engaging.", "As a reseller you will get an exclusive 20% discount for AR hosting service.", "You succeed – we succeed", "Don’t hesitate to use this opportunity.", "Join us !"]
+      },
+      {
+        "type": "form",
+        "position": "full"
+      }
+    ]
+  },
+  {
+    "id": 9988,
+    "title": "Augmented Reality in Marketing",
+    "author": "ARize",
+    "date": "September 11, 2018",
+    "image": "../assets/img/blog_images/Augmented_reality_in_marketing.jpg",
+    "intro": "ARize is a universal augmented reality platform which allows to add and see any kind of digital content in real environment... ",
+    "outSrc": "",
+    "content": [{
+      "type": "text",
+      "position": "full",
+      "src": ["<b>Who we are</b>", "ARize is a universal augmented reality platform which allows to add and see any kind of digital content in real environment.", "<b>What is AR</b>", "Augmented reality (AR), best characterised as a real-time blending of virtual objects into real- world settings, currently it is widely used in various spheres and Marketing is one of them. It allows a new level of convenience, speed and can leave a lasting brand impression", "Augmented reality can be used dor various reasons such as for:", "<ul> <li>Enhancing brand recognition</li> <li>Creating wow effect</li> <li>Increasing interaction between customer and product</li> <li>Personalising the consumers’ purchasing experience</li> </ul>", "<b>Where it can be used</b>", "<ul> <li><b>Outdoor advertising campaigns (Kinect/Phone)</b> <br> In public places AR can be used as the most attractive advertising method. Almost no one will pass by AR sticker or big screen without experiencing it.</li> <li><b>Packaging (interactive games)</b> <br> Packaging plays an important role in production as it the first impression that consumer gains from the product. AR can be implemented in packaging as a useful and entertaining solution. Useful information can be shown right on the product via AR, or it can allow to built and play interactive games right on your the package.</li><li><b>Posters/magazines</b> <br> Unlike printed ads which users could only see; users can interact with AR ads which builds an emotional connect as users gets personally involved with the campaign. AR is a perfect tool to bring printed materials to life and provide even more than just a video. With AR it is possible to put videos, audios and even 2D/3D animations which are really existing.</li><li><b>Try-on campaigns</b> <br> Another benefit is a possibility of virtual try-ons. Your consumers can try on many different items with AR: glasses, shoes, clothing, jewelry, watches, without leaving their homes. This makes AR ads a powerful tool for driving sales and increasing revenue, especially, at the age of e-commerce.</li></ul>", "<b>Customers expectations</b> (thinkmobiles.com , 2018)", "63% of customers are sure that augmented reality may buff their shopping experience. 35% says that they would likely go shopping online more if there would be possibility to virtually try stuff before buying it. 22% would be less likely to visit traditional retail stores if AR would be available in online stores.", "According to oberlo.com (28 Jul, 2017) Approximately 40% of consumers would be willing to spend more on a product if it offered an augmented reality experience."]
+    }]
+  },
+  {
+    "id": 9989,
+    "title": "Museum Night in Yerevan with ARize",
+    "author": "ARize",
+    "date": "May 25, 2018",
+    "image": "../assets/img/blog_images/post-museum-night-en.jpg",
+    "intro": "On May 18th, the whole world was celebrating the International day of Museums, which was followed by the next day’s event called ‘‘Museum Night’’... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["On May 18th, the whole world was celebrating the International day of Museums, which was followed by the next day’s event called ‘‘Museum Night’’. This year, the event was covering the ideas of ‘‘Interactive Museums, New approaches, New society’’. ARize also participated in the event, cooperating with Matenadaran and the Museum of Literature and Art named after E. Charents", "<b>In Matenadaran</b> is available the animation of Triumphal Entry to Jerusalem (Vaspurakan Gospel) , which can be watched via ARize AR app right on the Gospel’s miniature. The main idea of the animation is to transfer the message behind the miniature in a most proper way."]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post-museum-night3.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["<b>In the Museum of Literature and Art named after E. Charents</b>, ARize ‘‘brought to life’’ the old posters of Armenian movies, spectacles, operas and cartoons. With the help of ARize AR app one can scan any poster of movie, spectacle, opera or cartoon and watch the most famous scene of each one.", "This idea was welcomed by the visitors as well as by the staff of the museums and collected only positive feedbacks.", "Bellow you can find the feedbacks of the representatives of museums, concerning our cooperation.", "‘‘Within the framework of the ‘‘Museum Night’’ project, ARize AR platform provided an opportunity to visitors of Matenadaran, to watch an interesting animation, which created a big interest especially among students. Besides just looking at miniature, the visitors had an opportunity to watch the animated version of it, by holding their phones on the book. This new approach aims to deliver the right idea and meaning of the miniature that the author tried to. Currently, the animation of Triumphal Entry to Jerusalem (Vaspurakan Gospel) is available in Matenadaran, which is possible to watch with ARize AR application’’, - says the editor of Matenadaran’s website, Aram Torosyan"]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post-museum-night2.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["‘‘In the scope of International day of Museums, ARize AR company together with the Museum of Literature and Art named after E. Charents, came with an interesting idea of cooperation. The idea created a big interest mainly among the young visitors, making the exhibition process more interactive, thanks to the new technologies such as ARize Augmented Reality platform. This cooperation is expected to be continued by ‘ARising' new exhibitions’’,- says the responsible of Public Relations and Educational programs of the museum, Arusyak Ghazaryan.", "P.S. The cooperation with museums is not limited only within the framework of the ‘‘Museum Night’’ project but is an ongoing one, so those who have’t managed to see and experience this new approach are welcomed to visit the museums listed above."]
+      },
+      {
+        "type": "iframe",
+        "position": "full",
+        "src": "https://www.youtube.com/embed/k7dQbheqllY",
+        "videoTitle": ""
+      }
+    ]
+  },
+  {
+    "id": 9990,
+    "title": "Թանգարանաին գիշերը ARize-ի հետ",
+    "author": "ARize",
+    "date": "May 25, 2018",
+    "image": "../assets/img/blog_images/post-museum-night1.jpg",
+    "intro": "Մայիսի 18-ին ողջ աշխարհը նշում էր թանգարանների միջազգային օրը, որին հաջորդեց արդեն բոլորի կողմից սիրված Թանգարանային գիշեր միջոցառումը... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Մայիսի 18-ին ողջ աշխարհը նշում էր թանգարանների միջազգային օրը, որին հաջորդեց արդեն բոլորի կողմից սիրված Թանգարանային գիշեր միջոցառումը։ Այս տարի միջոցառումն անցկացվում էր «Գերհաղորդակցվող թանգարաններ. Նոր մոտեցումներ, նոր հասարակություն» խորագրի ներքո։ Միջոցառմանը մասնակցեցինք նաև մենք՝ իրականացնելով համատեղ նախագծեր Մատենադարանի և Ե. Չարենցի անվան Գրականության և Արվեստի թանգարանի հետ։", "<b>Մատենադարանում</b> ARize հարթակի միջոցով հասանելի է Վասպուրականի ավետարանի «Քրիստոսի մուտքը Երուսաղեմ» նկարազարդման անիմացված հոլովակը, որն ավելի պատկերավոր կերպով ցույց է տալիս տվյալ մանրանկարում պատկերված աստվածաշնչյան պատմությունը:"]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post-museum-night3.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["<b>Ե. Չարենցի անվան Գրականության և Արվեստի թանգարանում</b> ARize հարթակի միջոցով «կենդանացրել» ենք ֆիլմերի, թատերական ներկայացումների, օպերաների և մուլտֆիլմերի ազդագրերը։ Հարթակի միջոցով սկանավորելով ազդագիրը վրան հայտնվում է համապատասխան ֆիլմի, օպերայի, ներկյացման կամ մուլտֆիլմի ամենահայտնի տեսարանը:", "Մեր կողմից իրականացված այս նաագծերը արժանացան միայն դրական արձագանքի թե' թանգարանի այցելուների և թե' թանգարնների աշխատակիցների կողմից։", "Ստորև կարող եք կարդալ թանգարանների աշխատակիցների կարծիքներըը համագործակցության վերաբերյալ։", "«Թանգարանային գիշեր միջոցառման շրջանակներում, ARize լրացված իրականության հարթակը պատրաստել է հետաքրքիր անիմացիա: Lրացված իրականության հավելվածով անիմացիան դիտելը շատ հետաքրքիր Է հատկապես դպրոցականների համար: Այն հնարավորություն է տալիս ոչ միայն տեսնել մանրանկարները, այլև դիտել դրանք անիմացիոն տարբերակով։ Մանրանկարը ներկայացված է գործողության մեջ ՝ փոխանցելով երեխաներին ավելի հստակ պատկերացում ցուցանմուշների վերաբերյալ, այն մասին, թե ինչ է ցանկացել փոխանցել գրիչը, մանրանկարիչը։ Այս պահին Մատենադարանում հասանելի է «Հիսուսի մուտքը Երուսաղեմ» մանրանկարի անիմացիան, որը հնարավոր է տեսնել ARize հավելվածի միջոցով:»,- ասում է Արամ Թորոսյանը՝ Մատենադարանի կայքէջի խմբագիրը:"]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/post-museum-night2.jpg",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["«Մայիսի 19-ին, Թանգարանների գիշեր համաեվրոպական ակցիայի շրջանակներում Գրականության և արվեստի թանգարանում տրվեց Triple-E մոբայլ հարթակի հետ համատեղ համագործակցության մեկնարկը: Ծրագիրը մեծ հետաքրքրություն է առաջացրել հատկապես երիտասարդ այցելուների շրջանակում` դարձնելով թանգարանրը առավել ինտերակտիվ: Մեր համագարծակցությունը առաջիկայում ընդայլնելու ենք` ընդգրկելով նոր ցուցանմուշներ:»,-ասում է Արուսյակ Ղազարյանը՝ Ե. Չարենցի անվան Գրականության և Արվեստի թանգարանի հասարակայնության հետ կապերի և կրթական ծրագրերի պատասխանատուն:", "Հ.Գ. Թանգարանների հետ համագործակցությունը չի սահմանափակվել «Թանգարանային գիշեր» միջոցառման շրջանակներում և կրում է շարունակական բնույթ: Բոլոր նրանք, ովքեր դեռ չեն հասցրել ականատեսը լինել այս նորարարական մոտեցմանը, կարող են այցելել նշված թանգարաններ:"]
+      },
+      {
+        "type": "iframe",
+        "position": "full",
+        "src": "https://www.youtube.com/embed/k7dQbheqllY",
+        "videoTitle": ""
+      }
+    ]
+  },
+  {
+    "id": 9991,
+    "title": "The new reality: growing a digital startup from Armenia to Europe and beyond",
+    "author": "EU4Business",
+    "date": "April 19, 2018",
+    "image": "../assets/img/blog_images/post-eu4business.jpg",
+    "intro": "The IT sphere has grown to be one of the most important industries in Armenia, with its startups, tech entrepreneurs and innovators who believe in a high tech future... ",
+    "outSrc": "http://eu4business.eu/success-stories/new-reality-growing-digital-startup-armenia-europe-and-beyond",
+    "content": []
+  },
+  {
+    "id": 9992,
+    "title": "Augmented Reality in Art",
+    "author": "ARize",
+    "date": "March 02, 2018",
+    "image": "../assets/img/blog_images/ar-in-art.jpg",
+    "intro": "Museums and galleries are often considered to be the best places for pleasure and self-improvement. However, the frequency of visits to such kind of places, especially by youngsters, decreases day by day... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Museums and galleries are often considered to be the best places for pleasure and self-improvement. However, the frequency of visits to such kind of places, especially by youngsters, decreases day by day. As the world changes rapidly, high technology is advancing faster than ever. It starts to become an integral part of modern civilization, making people to be integrated into and correspond to it. Because of this evolution, people tend to spend their spare time interacting more and more with these modern technologies, making a visit to a museum or gallery less wanted.", "The ARize Augmented Reality platform has a new and creative solution to this problem: to combine the innovative technology of Augmented Reality with physical artworks in order to give them a new birth… We present a universal Augmented Reality platform called ARize. Augmented Reality is an innovative and nowadays very popular technology, which is widely used in various spheres such as education, architecture, tourism, marketing and of course art.", "<b>How to combine AR with artworks?</b>", "ARize allows users to add a virtual object to a real environment in only a few simple steps. In this example, we apply AR-technology on posters and paintings, bringing them to live. At first sight, this combination may seem unreal. However, the technology offers enormous potential to different museums and galleries around the world and has proven to be successful already."]
+      },
+      {
+        "type": "iframe",
+        "position": "full",
+        "src": "https://www.youtube.com/embed/cza86mJA7SI",
+        "videoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["By our latest collaboration with the municipality of Zoetermeer in the Netherlands, it has been proven that AR and art is a perfect combination. During an exhibition at the renewed town hall in Zoetermeer, ARize brought artworks to life, using its Augmented Reality Technology.", "Visitors scanned the paintings with their mobile devices, allowing them to have a completely new experience with art. The characters, objects, and details on each painting were brought to live by applying different 2D and 3D approaches to each painting. Consequently, the reviews of surprised and excited visitors are a good indicator that this combination can add value to museums and galleries by adapting to modern developments, giving them a fresh breath of air and increasing the number of visitors.", "<b>Main objectives of ARize</b>", "In addition, the ARize Augmented Reality Platform can be applied to sculptures or other types of art. By adding additional digital information in audio, video or text to the artwork, the application is an all-round feature that can add value in different forms at the same time.", "ARize enables galleries to...", "<ul> <li>Make the exhibition of different artworks more interesting and attractive;</li> <li>Give visitors an unforgettable AR-experience;</li> <li>Show modern creativity applied to older forms of art;</li> <li>Increase the frequency of visits to galleries and museums to be distinguished among all galleries and museums.</li> </ul>"]
+      },
+      {
+        "type": "card",
+        "position": "full",
+        "background": "#111c2f",
+        "src": "../assets/img/blog_images/ar-in-art-footer.jpg",
+        "photoTitle": "",
+        "callToAction": "We help you to bring augmented reality to your gallery, museum or artwork. Interested?",
+        "btnBackground": "#1f7eef"
+      }
+    ]
+  },
+  {
+    "id": 9993,
+    "title": "Armenia Startup Academy graduates: ARize",
+    "author": "Intel",
+    "date": "February 12, 2018",
+    "image": "../assets/img/blog_images/arm-startup.jpg",
+    "intro": "On February 3, the American University of Armenia hosted the Demo Day of the first stage of Armenia Startup Academy’s accelerator, within the frames of which 11 teams introduced their projects... ",
+    "outSrc": "https://itel.am/en/news/9662",
+    "content": []
+  },
+  {
+    "id": 9994,
+    "title": "Ayb School students explore the space with ARize",
+    "author": "ARize",
+    "date": "February 6, 2018",
+    "image": "../assets/img/blog_images/ayb-school1.jpg",
+    "intro": "Last week ARize team was all about hard work. Together with Innovative Solutions and Technologies Center (ISTC) we hosted one of the strictest audiences ever –two classes of 6th graders from Ayb School... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Ayb School students explore the space with ARize", "Last week ARize team was all about hard work. Together with Innovative Solutions and Technologies Center (ISTC) we hosted one of the strictest audiences ever –two classes of 6th graders from Ayb School. Within the framework of the school project related to science class kids had made their own posters about galaxy and asked our team to make them realistic by AR."]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/ayb-school2.png",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["They came with important mission to explore the depths of space with the use of AR technologies. Our journey began with an awesome tour through ISTC getting aquatinted with the daily life of companies and people working here. With a huge enthusiasm they declared their own dream professions on the think wall, some event pledged their loyalty to their future profession by signing under their choice."]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/ayb-school3.png",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["Then there was a short interactive presentation during which ARize team introduced how the technology works. They even saw how the Earth revolves right in their smartphones.", "Later our curious guests had a chance to create their own AR on their handmade posters by adding their own speech. Those students who wanted to have even more interesting and informative posters, went further and added videos of different space objects to their talking posters."]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/ayb-school4.png",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["At the end of the day, together with our young space explorers ARize became even more motivated to work harder to inspire others, hoping that one day some of our guests might become great astronomers and make marvelous discoveries."]
+      }
+
+    ]
+  },
+  {
+    "id": 9995,
+    "title": "ARize brings Artworks to life",
+    "author": "ARize",
+    "date": "January 26, 2018",
+    "image": "../assets/img/blog_images/ZoetermerHeadline.jpg",
+    "intro": "On January 26th in collaboration with municipality of zoetermeer (Netherlands), ARize Bring artworks to life using its Augmented reality technology... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Nowadays, everything that we are interacting with around our self’s is connected to engineering. From a toothbrush that we use to a smartphone that covers most part of our communication in our personal or professional life."]
+      },
+      {
+        "type": "photo",
+        "position": "full",
+        "src": "../assets/img/blog_images/artworks.gif",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["Using AR technology in combination with Art, makes it possible to have more information about an artwork just by scanning it through your phone camera with 3 simple steps:", "1. Open ARize App on your mobile device (IOS, Android)", "2. Just aim your phone to the artwork", "3. Enjoy an amazing Augmented Reality experience", "In collaboration with municipality of zoetermeer, ARize is merging artworks and technology to deliver a new type of experience from a regular artwork to the visitors. A novel type of interactive experience which they will never forget."]
+      }
+
+    ]
+  },
+  {
+    "id": 9996,
+    "title": "Augmented Reality For Engineering",
+    "author": "ARize",
+    "date": "November 17, 2017",
+    "image": "../assets/img/blog_images/article_AR_engineering.jpg",
+    "intro": "Nowadays, everything that we are interacting with around our self’s is connected to engineering. From a toothbrush that we use to a smartphone that covers most part of our communication in our personal or professional life... ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["Nowadays, everything that we are interacting with around our self’s is connected to engineering. From a toothbrush that we use to a smartphone that covers most part of our communication in our personal or professional life."]
+      },
+      {
+        "type": "text",
+        "position": "left",
+        "src": ["We from ARize have a great solution for visualizing your project. Using a simple smartphone and Augmented Reality technology you are able to visualize your engineered product faster, easier and a lot cheaper. Although AR is a great technology for visualizing and simplifying the process, there is one problem; making a AR-app is expensive and time consuming. The ARize AR-platform will give you the ability to visualize your product, fast and easy. Now, you just can focus on the development of your project and when needed visualize it through our platform."]
+      },
+      {
+        "type": "photo",
+        "position": "right",
+        "src": "../assets/img/blog_images/gif_engine.gif",
+        "photoTitle": ""
+      },
+      {
+        "type": "photo",
+        "position": "left",
+        "src": "../assets/img/blog_images/gif_ship.gif",
+        "photoTitle": ""
+      },
+      {
+        "type": "text",
+        "position": "right",
+        "src": ["When you are an engineer and you want to build something (again no difference between a toothbrush or a complex electronic system) there is always a point that you need to visualize your work. This visualization process can happen in different stages of your project. Each time you make a small change to your design, the visualization cycle needs to start all over again, which is usually time and money consuming. In other cases, you have to consume some material in order to have a physical version of your product."]
+      },
+      {
+        "type": "text",
+        "position": "full",
+        "src": ["Our platform is not limited to just the visualisation of a product, using our platform allows your technician to be educated by augmenting a user manual on your actual product. This will decrease your maintenance cost and give a new way for your target market to interact with your device. We are convinced about this solution. Try it out and convince yourself."]
+      }
+    ]
+  },
+  {
+    "id": 9997,
+    "title": "Startup Nights",
+    "author": "StartUpNight",
+    "date": "September 1, 2017",
+    "image": "../assets/img/blog_images/startupnights.jpg",
+    "intro": "ARize is a social platform based on Augmented Reality, which makes users able to make their own AR content right on mobile without any kind of coding require, with just 3 simple steps: Choosing Marker, Choosing Content, Publish an augmented reality to the world... ",
+    "outSrc": "https://www.startupnight.net/startups/2017/triple-e",
+    "content": []
+  },
+  {
+    "id": 9998,
+    "title": "ARize Start-Up: Making Augmented Reality Accessible",
+    "author": "ARize",
+    "date": "August 23, 2017",
+    "image": "../assets/img/blog_images/post3.jpg",
+    "intro": "Creating AR via ARize is as easy and simple as posting on Facebook. There are only three steps - selecting the image, adding content of various formats - photo, video, 3D model - and publishing. If, for example, you scan your target with your phone, then select content from the database (for example a video), and publish it on the ARize platform, then another user, who has the same target, can scan it and see the created video.... ",
+    "outSrc": "https://hetq.am/en/article/81460",
+    "content": []
+  },
+  {
+    "id": 9999,
+    "title": "AUGMENTED REALITY: TWO WORDS, ONE WORLD",
+    "author": "ARize",
+    "date": "August 2, 2016",
+    "image": "../assets/img/blog_images/post1header.jpg",
+    "intro": "What does the future have in store for us? In the century of technological progress, no one can give a solid answer to this question, but we can somehow get prepared to face the new challenges. And one obvious thing about the future is that augmented reality is going to be an essential part of our life. ",
+    "outSrc": "",
+    "content": [{
+        "type": "text",
+        "position": "full",
+        "src": ["What does the future have in store for us?", "In the century of technological progress, no one can give a solid answer to this question, but we can somehow get prepared to face the new challenges. And one obvious thing about the future is that augmented reality is going to be an essential part of our life.", "Augmented reality (AR) is one of the greatest technological achievements of the 21 century. It is the concept of an overlay of additional digital information over the real world environment in the form of 3D models. This additional information over the real world can be seen through different smart devices, such as a smartphone camera. Augmentation is happening conventionally in real-time and in semantic context with the elements of the environment. ", "With all of these technological progresses, the world is going to use smart glasses and gaggles instead of smartphones. Smart glasses and similar gadgets are inevitably accompanied by augmented reality. So AR is going to be one of the most necessary concepts of human social life. ", "Today, the augmented reality industry is providing some problem solving applications concerning interior design, architecture, education, navigation, videogames (e.g. a Pokémon go) etc. Just for the record, AR had a massive jump in the market last year and by now the market value is almost at 15 billion dollars. Corporations which are developing the technology and the market of augmented reality are amongst others QUALCOMM, PTC technologies, Google and Microsoft. ARize is to be the first social and interactive network based on augmented reality, where people can communicate with each other and with their environment by creating their own AR features over the real world.", "You can follow our page on Linkedin and be informed about the news <a href=\"https://www.linkedin.com/company/arizeplatform\" class=\"linkJson\" > LinkedIn</a>", "There are hundreds of augmented reality applications with specific usage which are too complicated to use. ARize is the platform which will combine all the features of AR and will be easy to use at the same time.", "We are aiming to show people the different use cases of augmented reality in different situations of their lives. By understanding and accepting the concept and, above all, by using augmented reality, we can look forward to the technological future properly."
 
         ]
       },
       {
         "type": "photo",
-        "position": "right",
-        "src": "../assets/img/why_us_images/screenshot1.jpg",
-        "photoTitle": "the title of this pic"
-      },
-      {
-        "type": "card",
         "position": "full",
-        "background": "#0e131c",
-        "src": "../assets/img/why_us_images/screenshot1.jpg",
-        "photoTitle": "the title of this pic",
-        "callToAction": "Want to become a Community Member?",
-        "btnBackground": "#6e3694"
+        "src": "../assets/img/blog_images/post1pic1.jpg",
+        "photoTitle": ""
       }
     ]
   },
   {
     "id": 10000,
     "title": "THE MORE YOU IMAGINE, THE MORE YOU GET",
+    "author": "ARize",
     "date": "July 14, 2016",
     "image": "../assets/img/blog_images/imagination.png",
     "intro": "Have you ever thought that one day you may have the possibility to realize all your imaginary ideas? Guess what? Now ARize gives you that opportunity. ARize is an easy to use augmented reality creation and viewing platform. ",
@@ -173,7 +566,7 @@
     "content": [{
         "type": "text",
         "position": "full",
-        "src": ["First, let’s understand clearly what augmented reality is.", "Augmented reality is an enhanced version of reality created by the use of technology to show you additional information as a digital overlay on any object being viewed through a device (such as a smartphone camera or a smart glass). In other words, augmented reality uses the existing environment and overlays new information on top of it.", "So, after dealing with the AR definition, we can discover the greatness of ARize. What is great about ARize, is that we provide a user-free platform, which allows regular users to create an AR experience for business purposes or just for fun. With our platform you can scan your environment and see different augmented objects (3D model - image - video) in your real world and interact with them. We have developed different types of augmented reality apps (Marker Base or Marker Less), besides we have developed different products on AR technology, like video mapping, hidden museum and AR games (by order). "]
+        "src": ["Have you ever thought that one day you may have the possibility to realize all your imaginary ideas? Guess what? Now ARize gives you that opportunity. ARize is an easy to use augmented reality creation and viewing platform. ", "First, let’s understand clearly what augmented reality is.", "Augmented reality is an enhanced version of reality created by the use of technology to show you additional information as a digital overlay on any object being viewed through a device (such as a smartphone camera or a smart glass). In other words, augmented reality uses the existing environment and overlays new information on top of it.", "So, after dealing with the AR definition, we can discover the greatness of ARize. What is great about ARize, is that we provide a user-free platform, which allows regular users to create an AR experience for business purposes or just for fun. With our platform you can scan your environment and see different augmented objects (3D model - image - video) in your real world and interact with them. We have developed different types of augmented reality apps (Marker Base or Marker Less), besides we have developed different products on AR technology, like video mapping, hidden museum and AR games (by order). "]
       },
       {
         "type": "photo",
@@ -201,7 +594,7 @@
       {
         "type": "text",
         "position": "full",
-        "src": ["Our company was founded on 1st of March 2016 in Armenia, and our augmented reality Beta version is coming soon! For getting the Beta version and testing augmented reality, all you need to do is to visit our web page ARize and insert your E-mail address, we will then send you the application! And also you can follow our page on Linkedin and be informed about the news txt.link('https://www.w3schools.com')  <a href=\"http://www.google.com\">here</a>  . Our goal is to improve visualization processes by changing the way people interact with mobile devices (tablet – smartphone –smart glass). ARize is not only about the application or platform, it’s about making your imagination real. The only thing you have to do is to challenge your imaginary power."]
+        "src": ["Our company was founded on 1st of March 2016 in Armenia, and our augmented reality Beta version is coming soon! For getting the Beta version and testing augmented reality, all you need to do is to visit our web page<a href=\"https://www.arize.io\" class=\"linkJson\" > ARize</a>  and insert your E-mail address, we will then send you the application! And also you can follow our page on Linkedin and be informed about the news <a href=\"https://www.linkedin.com/company/arizeplatform\" class=\"linkJson\" > LinkedIn</a>  . Our goal is to improve visualization processes by changing the way people interact with mobile devices (tablet – smartphone –smart glass). ARize is not only about the application or platform, it’s about making your imagination real. The only thing you have to do is to challenge your imaginary power."]
       }
     ]
   }

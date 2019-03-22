@@ -22,5 +22,7 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
     window.scrollTo(0, 0);
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.add('gradient');
   }
 }

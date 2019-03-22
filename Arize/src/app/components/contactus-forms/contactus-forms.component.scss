@@ -4,7 +4,9 @@
   border: 0.5px solid #dcdcdc;
   box-sizing: border-box;
   padding: 10px;
+  padding-bottom: 150px;
   text-align: center;
+  position: relative;
 
   &-title {
     font-size: 30px;
@@ -29,6 +31,9 @@
     line-height: 0.85;
     color: #fff;
     text-transform: uppercase;
+    position: absolute;
+    left: calc(45% - 60px);
+    bottom: 30px;
   }
 
   & .form-group {
@@ -48,6 +53,12 @@
       }
 
     }
+  }
+
+  & .recaptcha {
+    position: absolute;
+    left: calc(45% - 130px);
+    bottom: 85px;
   }
 
 
