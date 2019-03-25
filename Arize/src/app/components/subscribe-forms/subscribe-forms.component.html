@@ -12,8 +12,8 @@
       </div>
       <div class="modal-body">
 
-        <form [formGroup]='form' (ngSubmit)="myClick()" action="http://arize.io/assets/php/subscribe.php" id="contact_form_subscribe"
-          class="from-inline" role="form" data-toggle="validator" method="post">
+        <form [formGroup]='form' (ngSubmit)="myClick()" action="http://arize.io/assets/php/subscribe.php"
+          id="contact_form_subscribe" class="from-inline" role="form" data-toggle="validator" method="post">
           <p class="subscribe-description">
             Simply enter your full name and email to be able to receive our latest offers!
           </p>
@@ -34,8 +34,8 @@
             <div class="col-sm-6">
               <!-- reCaptcha -->
               <div class="form-group">
-                <re-captcha (resolved)="resolved($event)" siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" class="g-recaptcha"
-                  data-callback="recaptchaCallback"></re-captcha>
+                <re-captcha (resolved)="resolved($event)" siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                  class="g-recaptcha" data-callback="recaptchaCallback"></re-captcha>
               </div>
 
 

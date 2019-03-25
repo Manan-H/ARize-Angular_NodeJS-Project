@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HostListener, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -8,5 +9,23 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.remove('gradient');
+  }
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    let navbar = document.querySelector('.navbar');
+    const number =
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop ||
+      0;
+    if (number < 400) {
+      navbar.classList.remove('gradient');
+    } else {
+      navbar.classList.add('gradient');
+    }
+  }
 }

@@ -70,12 +70,18 @@
                       <p style="text-align:center; font-size: 13px; color: #eae6e6;">
                         <em><b>{{content.photoTitle}}</b></em></p>
                     </div>
-                    <div class="col-md-6 callToAction">
+                    <div class="col-md-6 callToAction" *ngIf="content.link.length === 0">
                       <h2 class="">{{content.callToAction}}</h2>
-                      <input type="button" value="Click Me"
-                        [ngStyle]="{'background':getBackground(content.btnBackground)}">
+                      <input type="button" value="Click Me" data-toggle="modal" data-target="#contactUsModal"
+                        class="subscribe-modal" [ngStyle]="{'background':getBackground(content.btnBackground)}">
+                    </div>
+                    <div class="col-md-6 callToAction" *ngIf="content.link.length > 0">
+                      <h2 class="">{{content.callToAction}}</h2>
+                      <a href={{content.link}}><input type="button" value="Click Me"
+                          [ngStyle]="{'background':getBackground(content.btnBackground)}"> </a>
                     </div>
                   </div>
+                  <app-contactus-forms></app-contactus-forms>
                 </div>
 
 

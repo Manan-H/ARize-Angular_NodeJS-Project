@@ -41,3 +41,69 @@
 agm-map {
   height: 300px;
 }
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  border: 0.5px solid #dcdcdc;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 150px;
+  text-align: center;
+  position: relative;
+
+  &-title {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 1.20;
+    color: #1f7eef;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 0.5px solid #dcdcdc;
+
+  }
+
+  & input[type=submit] {
+    width: 119px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1f7eff;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 0.85;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    left: calc(45% - 60px);
+    bottom: 30px;
+  }
+
+  & .form-group {
+    margin: 45px;
+
+
+
+
+    & input[type=text] {
+      border-radius: 0px;
+      border: 1px solid #bce0fd;
+
+      &::placeholder {
+        color: #1f7eef;
+        font-size: 14px;
+
+      }
+
+    }
+  }
+
+  & .recaptcha {
+    position: absolute;
+    left: calc(45% - 130px);
+    bottom: 85px;
+  }
+
+
+}
