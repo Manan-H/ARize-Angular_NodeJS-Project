@@ -20,4 +20,9 @@ export class NavbarComponent implements OnInit {
       .querySelector(element)
       .scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+
+  clickToggler() {
+    document.querySelector('.navbar-collapse').classList.toggle('collapse-bgd');
+    document.querySelector('.arize-navbar').classList.add('collapse-bgd');
+  }
 }
