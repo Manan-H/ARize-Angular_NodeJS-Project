@@ -14,40 +14,41 @@
       <div class="pricing-ar-cards">
 
         <div class="card-deck">
-          <div class="card pricing_card" style="height:28rem; width: 17rem;" *ngFor="let price of prices">
-            <div class="pricing_title">
-              <span>{{price.title}}</span>
-            </div>
-            <div class="pricing_price">
-              <h4><sup>{{price.currency}}</sup><b>{{price.price}}</b><sub>{{price.sub}}</sub></h4>
-              <p>{{price.vat}}</p>
-            </div>
-            <div class="card-body pricing_card_body">
-              <div class="option">
-                <ul>
-                  <li>{{price.option1}} <span><i class="fa fa-check" aria-hidden="true"></i></span></li>
-                  <li>{{price.option2}} <span><i class="fa fa-check" aria-hidden="true"></i></span></li>
-                  <li>{{price.option3}} <span><i class="fa fa-times" aria-hidden="true"></i></span></li>
-                  <li>{{price.option4}}<span><i class="fa fa-times" aria-hidden="true"></i></span></li>
-                </ul>
+          <div class="col-md-6" *ngFor="let price of prices">
+            <div class="card pricing_card" style="height:28rem; width: 17rem;">
+              <div class="pricing_title">
+                <span>{{price.title}}</span>
               </div>
-            </div>
+              <div class="pricing_price">
+                <h4><sup>{{price.currency}}</sup><b>{{price.price}}</b><sub>{{price.sub}}</sub></h4>
+                <p>{{price.vat}}</p>
+              </div>
+              <div class="card-body pricing_card_body">
+                <div class="option">
+                  <ul>
+                    <li>{{price.option1}} <span><i class="fa fa-check" aria-hidden="true"></i></span></li>
+                    <li>{{price.option2}} <span><i class="fa fa-check" aria-hidden="true"></i></span></li>
+                    <li>{{price.option3}} <span><i class="fa fa-times" aria-hidden="true"></i></span></li>
+                    <li>{{price.option4}}<span><i class="fa fa-times" aria-hidden="true"></i></span></li>
+                  </ul>
+                </div>
+              </div>
 
-            <div class="pricing_card_btn">
-              <div class="Ocean">
-                <div class=" Coral">
-                  <button href="#" data-toggle="modal" data-target="#modalPriceBasic" data-price-name="trial"
-                    data-content='<div class="modal-header">
+              <div class="pricing_card_btn">
+                <div class="Ocean">
+                  <div class=" Coral">
+                    <button href="#" data-toggle="modal" data-target="#modalPriceBasic" data-price-name="trial"
+                      data-content='<div class="modal-header">
                     <h4 class="modal-title">Trial</h4>
                     <p>We will contact you soon</p>
-        </div>'
-                    data-form-pricing-content='
+        </div>' data-form-pricing-content='
 
                     <!-- description input-->
                     <div class="form-group center">
                         <textarea name="description" id="" cols="40" rows="5" placeholder="Description" class="form-control"></textarea>
-                    </div>'>{{price.btn_text}}<span
-                      class="Coralwave1"></span><span class="Coralwave2"></span><span class="Coralwave3"></span></button>
+                    </div>'>{{price.btn_text}}<span class="Coralwave1"></span><span class="Coralwave2"></span><span
+                        class="Coralwave3"></span></button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,14 +90,14 @@
               <button href="#" data-toggle="modal" data-target="#modalPriceBasic" data-price-name="trial" data-content='<div class="modal-header">
                 <h4 class="modal-title">Trial</h4>
                 <p>We will contact you soon</p>
-    </div>'
-                data-form-pricing-content='
+    </div>' data-form-pricing-content='
 
                 <!-- description input-->
                 <div class="form-group center">
                     <textarea name="description" id="" cols="40" rows="5" placeholder="Description" class="form-control"></textarea>
                 </div>'>LET'S
-                TRY<span class="Coralwave1"></span><span class="Coralwave2"></span><span class="Coralwave3"></span></button>
+                TRY<span class="Coralwave1"></span><span class="Coralwave2"></span><span
+                  class="Coralwave3"></span></button>
             </div>
           </div>
         </div>
@@ -126,7 +127,8 @@
         <form [formGroup]='priceForm' (ngSubmit)="doPurchase()" class="well form-horizontal bv-form" id="pricing-form">
           <!-- Name input-->
           <div class="form-group center">
-            <input formControlName="first_name" placeholder="Full Name" class="form-control" type="text" data-bv-field="first_name">
+            <input formControlName="first_name" placeholder="Full Name" class="form-control" type="text"
+              data-bv-field="first_name">
           </div>
           <!-- Email input-->
           <div class="form-group center">
@@ -139,34 +141,39 @@
               <!-- content quantity input-->
               <div class="calc-input form-group col-md-6">
                 <span>3D models & animation</span>
-                <input formControlName="quantity_2d" type="number" min="0" step="1" placeholder="0" data-bv-field="quantity_2d">
+                <input formControlName="quantity_2d" type="number" min="0" step="1" placeholder="0"
+                  data-bv-field="quantity_2d">
               </div>
               <!-- target quantity input-->
               <div class="calc-input form-group col-md-6">
                 <span>2D animation & video</span>
-                <input formControlName="quantity_3d" type="number" min="0" step="1" placeholder="0" data-bv-field="quantity_3d">
+                <input formControlName="quantity_3d" type="number" min="0" step="1" placeholder="0"
+                  data-bv-field="quantity_3d">
               </div>
             </div>
 
 
             <!-- description input-->
             <div class="form-group center">
-              <textarea formControlName="description" id="" cols="40" rows="5" placeholder="Description" class="form-control"></textarea>
+              <textarea formControlName="description" id="" cols="40" rows="5" placeholder="Description"
+                class="form-control"></textarea>
             </div>
           </div>
 
           <div class="form-group">
-            <re-captcha (resolved)="resolved($event)" siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" class="g-recaptcha"
-              data-callback="recaptchaCallback"></re-captcha>
+            <re-captcha (resolved)="resolved($event)" siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+              class="g-recaptcha" data-callback="recaptchaCallback"></re-captcha>
           </div>
 
 
 
           <!-- Success message -->
-          <div class="alert alert-success rec" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i>
+          <div class="alert alert-success rec" role="alert" id="success_message">Success <i
+              class="glyphicon glyphicon-thumbs-up"></i>
             Thanks for contacting us, we will get back to you shortly.</div>
           <!-- Fail message -->
-          <div class="alert alert-danger" role="alert" id="danger_message">Error <i class="glyphicon glyphicon-thumbs-down"></i>
+          <div class="alert alert-danger" role="alert" id="danger_message">Error <i
+              class="glyphicon glyphicon-thumbs-down"></i>
             Sorry, something went wrong. Try to reload page.</div>
           <!-- Image loader -->
           <div id='loader' style='display: none;'>

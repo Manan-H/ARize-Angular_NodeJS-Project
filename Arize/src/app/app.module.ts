@@ -29,6 +29,7 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
 import { BlogArticleComponent } from './components/blog-article/blog-article.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { AboutComponent } from './components/about/about.component';
+import { ContactusModalComponent } from './components/contactus-modal/contactus-modal.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { AboutComponent } from './components/about/about.component';
     PrivacyPolicyComponent,
     BlogArticleComponent,
     TermsComponent,
-    AboutComponent
+    AboutComponent,
+    ContactusModalComponent
   ],
   imports: [
     BrowserModule,
