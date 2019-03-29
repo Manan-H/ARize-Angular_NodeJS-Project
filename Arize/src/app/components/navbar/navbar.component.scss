@@ -1,3 +1,29 @@
+.mobile-app-bar {
+  height: 60px;
+  text-align: center;
+  color: white;
+  background: #1c142c;
+  font-size: 10px;
+  line-height: 2vw;
+
+  &-text {
+    line-height: 3vw;
+
+    & span {
+      margin-left: 16%;
+    }
+  }
+
+  &-link a {
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 37px;
+    width: 66px;
+    padding: 8px;
+
+  }
+}
+
 .arize-navbar {
   width: 100%;
   border: none;
@@ -13,12 +39,15 @@
 }
 
 @media screen and (max-width: 992px) {
+
+
   .logo {
     margin-left: 5rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+
   .logo {
     margin-left: 1rem;
   }

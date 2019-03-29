@@ -6,7 +6,8 @@
     "btn_text": "View More",
     "image": "ar_marketing_image",
     "imgClmOrder": "service-order2",
-    "descClmOrder": "service-order1"
+    "descClmOrder": "service-order1",
+    "link": "/blogs/9988"
   },
   {
     "id": 2,
@@ -16,7 +17,8 @@
     "btn_text": "View More",
     "image": "ar_art_image",
     "imgClmOrder": "service-order1",
-    "descClmOrder": "service-order2"
+    "descClmOrder": "service-order2",
+    "link": "/blogs/9992"
   },
   {
     "id": 3,
@@ -26,7 +28,8 @@
     "btn_text": "View More",
     "image": "ar_engineering_image",
     "imgClmOrder": "service-order2",
-    "descClmOrder": "service-order1"
+    "descClmOrder": "service-order1",
+    "link": "/blogs/9996"
   },
   {
     "id": 4,
@@ -36,7 +39,8 @@
     "btn_text": "View More",
     "image": "ar_education_image",
     "imgClmOrder": "service-order1",
-    "descClmOrder": "service-order2"
+    "descClmOrder": "service-order2",
+    "link": "/blogs/9994"
   }
 
 ]

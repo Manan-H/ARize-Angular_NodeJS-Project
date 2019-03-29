@@ -29,7 +29,7 @@ export class BlogsComponent implements OnInit {
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;
-    if (number < 2000) {
+    if (number < 13500) {
       sideSubscribe.classList.remove('bottom-margin');
     } else {
       sideSubscribe.classList.add('bottom-margin');
