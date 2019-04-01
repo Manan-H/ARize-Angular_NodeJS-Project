@@ -36,6 +36,9 @@ export class BlogArticleComponent implements OnInit {
       console.log(this.post);
       console.log(this.post[0].content[0].typE);
     });
+
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.add('gradient');
   }
 
   getBackground(color) {

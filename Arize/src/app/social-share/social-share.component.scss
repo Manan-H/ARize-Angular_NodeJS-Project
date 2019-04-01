@@ -1,0 +1,22 @@
+.shareButtons {
+  position: fixed;
+  z-index: 111;
+}
+
+share-buttons {
+  position: absolute;
+}
+
+
+
+.bottom-margin {
+  position: absolute;
+  bottom: 171px;
+}
+
+@media screen and (max-width: 768px) {
+  .bottom-margin {
+    bottom: unset;
+    position: unset;
+  }
+}

@@ -30,6 +30,8 @@ import { BlogArticleComponent } from './components/blog-article/blog-article.com
 import { TermsComponent } from './components/terms/terms.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactusModalComponent } from './components/contactus-modal/contactus-modal.component';
+import { SocialShareComponent } from './social-share/social-share.component';
+import { ShareButtonsModule } from '@ngx-share/buttons';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,8 @@ import { ContactusModalComponent } from './components/contactus-modal/contactus-
     BlogArticleComponent,
     TermsComponent,
     AboutComponent,
-    ContactusModalComponent
+    ContactusModalComponent,
+    SocialShareComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +70,8 @@ import { ContactusModalComponent } from './components/contactus-modal/contactus-
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA83kW20SxRpEL7kMQX9UfQBPQmaDHw5q0'
     }),
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    ShareButtonsModule
   ],
   providers: [GoogleMapsAPIWrapper],
   bootstrap: [AppComponent]

@@ -5,6 +5,8 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 import { RecaptchaComponent } from 'ng-recaptcha';
 
+import './icons';
+
 if (environment.production) {
   enableProdMode();
 }
