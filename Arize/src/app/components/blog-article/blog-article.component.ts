@@ -13,6 +13,7 @@ export class BlogArticleComponent implements OnInit {
   blogs: any = [];
   post: any;
   id: any;
+  blogLink: any;
 
   constructor(
     private route: ActivatedRoute,
@@ -21,6 +22,7 @@ export class BlogArticleComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.blogLink = window.location.href;
     window.scrollTo(0, 0);
 
     this.route.params.subscribe((params: Params) => {

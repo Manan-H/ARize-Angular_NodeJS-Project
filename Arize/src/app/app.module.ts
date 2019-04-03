@@ -30,8 +30,9 @@ import { BlogArticleComponent } from './components/blog-article/blog-article.com
 import { TermsComponent } from './components/terms/terms.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactusModalComponent } from './components/contactus-modal/contactus-modal.component';
-import { SocialShareComponent } from './social-share/social-share.component';
+import { SocialShareComponent } from './components/social-share/social-share.component';
 import { ShareButtonsModule } from '@ngx-share/buttons';
+import { GuidelinesComponent } from './components/guidelines/guidelines.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { ShareButtonsModule } from '@ngx-share/buttons';
     TermsComponent,
     AboutComponent,
     ContactusModalComponent,
-    SocialShareComponent
+    SocialShareComponent,
+    GuidelinesComponent
   ],
   imports: [
     BrowserModule,

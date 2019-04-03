@@ -31,10 +31,7 @@ export class PricingComponent implements OnInit {
     });
   }
 
-  clickMe(e) {
-    const target = e as HTMLTextAreaElement;
-    console.log(target);
-
+  clickMe() {
     let pricingBtn = document.querySelectorAll('.pricing-btn-item');
     let pricingDesc = document.querySelectorAll('.pricing_option');
     for (let i = 0; i < pricingBtn.length; i++) {

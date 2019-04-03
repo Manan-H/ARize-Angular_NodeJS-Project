@@ -1,0 +1,22 @@
+.guidelines {
+  margin-top: 80px;
+
+  & h4 {
+    text-align: left;
+    line-height: 2.8;
+    color: #0b0b0b;
+    font-weight: 600;
+    font-family: Panton;
+    font-size: 19px;
+    margin: 10px 0 20px 0;
+  }
+
+  & p {
+    text-align: justify;
+    color: rgb(17, 28, 47);
+    margin: 0 0 20px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+}

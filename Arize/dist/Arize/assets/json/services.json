@@ -1,0 +1,46 @@
+[{
+    "id": 1,
+    "title": "AR for Marketing",
+    "text1": "A new level of running your Marketing",
+    "text2": "Campaigns with the help of AR.",
+    "btn_text": "View More",
+    "image": "ar_marketing_image",
+    "imgClmOrder": "service-order2",
+    "descClmOrder": "service-order1",
+    "link": "/blogs/9988"
+  },
+  {
+    "id": 2,
+    "title": "AR for Art",
+    "text1": "Looking for a unique way of exhibition in museums?",
+    "text2": "AR is what you need.",
+    "btn_text": "View More",
+    "image": "ar_art_image",
+    "imgClmOrder": "service-order1",
+    "descClmOrder": "service-order2",
+    "link": "/blogs/9992"
+  },
+  {
+    "id": 3,
+    "title": "AR for Engineering",
+    "text1": "Visualize and test your product with AR",
+    "text2": "before producing it.",
+    "btn_text": "View More",
+    "image": "ar_engineering_image",
+    "imgClmOrder": "service-order2",
+    "descClmOrder": "service-order1",
+    "link": "/blogs/9996"
+  },
+  {
+    "id": 4,
+    "title": "AR for Education",
+    "text1": "Making the explanation process more interactive",
+    "text2": "and impressive with AR.",
+    "btn_text": "View More",
+    "image": "ar_education_image",
+    "imgClmOrder": "service-order1",
+    "descClmOrder": "service-order2",
+    "link": "/blogs/9994"
+  }
+
+]
