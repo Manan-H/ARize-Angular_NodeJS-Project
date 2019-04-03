@@ -33,6 +33,7 @@ import { ContactusModalComponent } from './components/contactus-modal/contactus-
 import { SocialShareComponent } from './components/social-share/social-share.component';
 import { ShareButtonsModule } from '@ngx-share/buttons';
 import { GuidelinesComponent } from './components/guidelines/guidelines.component';
+import { PhotoGalleryComponent } from './components/photo-gallery/photo-gallery.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { GuidelinesComponent } from './components/guidelines/guidelines.componen
     AboutComponent,
     ContactusModalComponent,
     SocialShareComponent,
-    GuidelinesComponent
+    GuidelinesComponent,
+    PhotoGalleryComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { BlogArticleComponent } from './components/blog-article/blog-article.com
 import { TermsComponent } from './components/terms/terms.component';
 import { AboutComponent } from './components/about/about.component';
 import { GuidelinesComponent } from './components/guidelines/guidelines.component';
+import { PhotoGalleryComponent } from './components/photo-gallery/photo-gallery.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'terms-of-use', component: TermsComponent },
   { path: 'about-us', component: AboutComponent },
-  { path: 'guidelines', component: GuidelinesComponent }
+  { path: 'guidelines', component: GuidelinesComponent },
+  { path: 'photo-gallery', component: PhotoGalleryComponent }
 ];
 
 @NgModule({

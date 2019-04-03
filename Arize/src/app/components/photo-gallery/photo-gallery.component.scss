@@ -1,0 +1,31 @@
+.photo-gallery {
+  margin-top: 85px;
+
+  & h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333;
+    margin: 30px 0 10px;
+  }
+
+  & h3 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+
+  & .item {
+    height: 255px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  & time {
+    margin-left: 5px;
+  }
+}
