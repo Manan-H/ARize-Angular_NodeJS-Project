@@ -34,6 +34,7 @@ import { SocialShareComponent } from './components/social-share/social-share.com
 import { ShareButtonsModule } from '@ngx-share/buttons';
 import { GuidelinesComponent } from './components/guidelines/guidelines.component';
 import { PhotoGalleryComponent } from './components/photo-gallery/photo-gallery.component';
+import { RECAPTCHA_SETTINGS, RecaptchaSettings } from 'ng-recaptcha';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,16 @@ import { PhotoGalleryComponent } from './components/photo-gallery/photo-gallery.
     NgbModule.forRoot(),
     ShareButtonsModule
   ],
-  providers: [GoogleMapsAPIWrapper],
+  providers: [
+    GoogleMapsAPIWrapper,
+
+    {
+      provide: RECAPTCHA_SETTINGS,
+      useValue: {
+        siteKey: '6Ler1TQUAAAAAHZb9_6YntXwD9B5BAjvD95QBEeR'
+      } as RecaptchaSettings
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

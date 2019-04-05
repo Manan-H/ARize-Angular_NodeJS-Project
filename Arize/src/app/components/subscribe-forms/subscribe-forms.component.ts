@@ -15,10 +15,7 @@ export class SubscribeFormsComponent implements OnInit {
     this.form = new FormGroup({
       name: new FormControl('', Validators.required),
       email: new FormControl('', [Validators.required, Validators.email]),
-      captcha: new FormControl(
-        '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe',
-        Validators.required
-      )
+      recaptchaReactive: new FormControl(null, Validators.required)
     });
   }
 

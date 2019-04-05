@@ -32,7 +32,7 @@
     "@ngx-share/core": "^7.1.2",
     "@nicky-lenaers/ngx-scroll-to": "^2.0.0",
     "@types/chart.js": "^2.7.42",
-    "angular-bootstrap-md": "^7.4.0",
+    "angular-bootstrap-md": "^7.4.4",
     "angular-font-awesome": "^3.1.2",
     "bootstrap": "^4.2.1",
     "chart.js": "^2.5.0",

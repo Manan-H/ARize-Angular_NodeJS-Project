@@ -16,10 +16,7 @@ export class ContactusFormsComponent implements OnInit {
       name: new FormControl('', Validators.required),
       email: new FormControl('', [Validators.required, Validators.email]),
       description: new FormControl(''),
-      captcha: new FormControl(
-        '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe',
-        Validators.required
-      )
+      recaptchaReactive: new FormControl(null, Validators.required)
     });
   }
 
