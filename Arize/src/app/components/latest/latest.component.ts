@@ -7,13 +7,13 @@ import { DataService } from '../../data.service';
   styleUrls: ['./latest.component.scss']
 })
 export class LatestComponent implements OnInit {
-  latests: any = [];
+  main: any = [];
 
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.getLatest().subscribe(data => {
-      return (this.latests = data);
+    this.dataService.getMain().subscribe(data => {
+      return (this.main = data);
     });
   }
 }

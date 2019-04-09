@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Arize';
+  title = 'ARize Augmented Reality Platform';
   cookieMessage: string =
     'This website uses cookies and location to improve service and for statistical purposes. By using this site, you agree to this use.';
   cookieDismiss: string = 'I agree';

@@ -14,7 +14,7 @@
       <div class="pricing-ar-cards">
 
         <div class="card-deck">
-          <div class="col-md-6" *ngFor="let price of prices">
+          <div class="col-md-6" *ngFor="let price of main.prices">
             <div class="card pricing_card" style="height:28rem; width: 17rem;">
               <div class="pricing_title">
                 <span>{{price.title}}</span>
@@ -161,8 +161,7 @@
           </div>
 
           <div class="form-group">
-            <re-captcha (resolved)="resolved($event)" siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-              class="g-recaptcha" data-callback="recaptchaCallback"></re-captcha>
+            <re-captcha formControlName="recaptchaReactive"></re-captcha>
           </div>
 
 

@@ -8,17 +8,21 @@ import { HttpClient } from '@angular/common/http';
 export class DataService {
   constructor(private http: HttpClient) {}
 
-  public getLatest() {
-    return this.http.get('../assets/json/latest.json');
+  // public getMain() {
+  //   return this.http.get('http://localhost:3000/');
+  // }
+
+  public getMain() {
+    return this.http.get('../assets/json/main.json');
   }
 
-  public getServices() {
-    return this.http.get('../assets/json/services.json');
-  }
+  // public getBlogs() {
+  //   return this.http.get('http://localhost:3000/blogs');
+  // }
 
-  public getPricing() {
-    return this.http.get('../assets/json/pricing.json');
-  }
+  // public getBlogsArticle() {
+  //   return this.http.get('http://localhost:3000/blogs/:id');
+  // }
 
   public getBlogs() {
     return this.http.get('../assets/json/blogs.json');

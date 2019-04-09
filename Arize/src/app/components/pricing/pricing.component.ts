@@ -8,14 +8,14 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./pricing.component.scss']
 })
 export class PricingComponent implements OnInit {
-  prices: any = [];
+  main: any = [];
   priceForm: FormGroup;
 
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.getPricing().subscribe(data => {
-      return (this.prices = data);
+    this.dataService.getMain().subscribe(data => {
+      return (this.main = data);
     });
 
     this.priceForm = new FormGroup({
@@ -24,10 +24,7 @@ export class PricingComponent implements OnInit {
       quantity_2d: new FormControl('', Validators.required),
       quantity_3d: new FormControl('', Validators.required),
       description: new FormControl('', Validators.required),
-      captcha: new FormControl(
-        '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe',
-        Validators.required
-      )
+      recaptchaReactive: new FormControl(null, Validators.required)
     });
   }
 

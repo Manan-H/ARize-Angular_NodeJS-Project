@@ -7,13 +7,13 @@ import { DataService } from '../../data.service';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent implements OnInit {
-  services: any = [];
+  main: any = [];
 
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.getServices().subscribe(data => {
-      return (this.services = data);
+    this.dataService.getMain().subscribe(data => {
+      return (this.main = data);
     });
   }
 }
