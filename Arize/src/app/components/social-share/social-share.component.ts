@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HostListener, Inject } from '@angular/core';
+import { DataService } from '../../data.service';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-social-share',
@@ -7,11 +9,31 @@ import { HostListener, Inject } from '@angular/core';
   styleUrls: ['./social-share.component.scss']
 })
 export class SocialShareComponent implements OnInit {
-  blogLink: any;
-  constructor() {}
+  blogs: any = [];
+  post: any;
+  id: any;
+
+  constructor(
+    private route: ActivatedRoute,
+    private dataService: DataService
+  ) {}
 
   ngOnInit() {
-    this.blogLink = window.location.href;
+    console.log(this);
+
+    this.route.params.subscribe((params: Params) => {
+      this.id = +params['id'];
+    });
+
+    this.dataService.getBlogs().subscribe(data => {
+      this.blogs = data;
+
+      this.post = this.blogs.filter(post => {
+        return post.id === this.id;
+      });
+    });
+
+    console.log(this.post);
   }
 
   @HostListener('window:scroll', [])

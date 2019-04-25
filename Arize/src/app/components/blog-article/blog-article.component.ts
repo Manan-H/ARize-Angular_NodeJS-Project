@@ -3,6 +3,7 @@ import { HostListener, Inject } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../data.service';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-blog-article',
@@ -13,16 +14,40 @@ export class BlogArticleComponent implements OnInit {
   blogs: any = [];
   post: any;
   id: any;
-  blogLink: any;
 
   constructor(
     private route: ActivatedRoute,
     private dataService: DataService,
-    public sanitizer: DomSanitizer
-  ) {}
+    public sanitizer: DomSanitizer,
+    private meta: Meta
+  ) {
+    this.meta.addTags([
+      { name: 'description', content: 'Title and Meta tags examples' },
+      { name: 'keywords', content: 'TypeScript, Angular' },
+      { property: 'og:title', content: 'My Text' },
+      {
+        property: 'og:image',
+        content:
+          'http://developer.test.ang.io.triplee.info/assets/img/blog_images/join-cc.jpg'
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@alligatorio' },
+      {
+        name: 'twitter:title',
+        content: 'Front-end Web Development, Chewed Up'
+      },
+      {
+        name: 'twitter:description',
+        content: 'Learn frontend web development...'
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://alligator.io/images/front-end-cover.png'
+      }
+    ]);
+  }
 
   ngOnInit() {
-    this.blogLink = window.location.href;
     window.scrollTo(0, 0);
 
     this.route.params.subscribe((params: Params) => {
@@ -35,8 +60,6 @@ export class BlogArticleComponent implements OnInit {
       this.post = this.blogs.filter(post => {
         return post.id === this.id;
       });
-      console.log(this.post);
-      console.log(this.post[0].content[0].typE);
     });
 
     let navbar = document.querySelector('.navbar');
