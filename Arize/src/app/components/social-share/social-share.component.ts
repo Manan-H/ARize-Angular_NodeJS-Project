@@ -19,8 +19,6 @@ export class SocialShareComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    console.log(this);
-
     this.route.params.subscribe((params: Params) => {
       this.id = +params['id'];
     });
@@ -32,8 +30,6 @@ export class SocialShareComponent implements OnInit {
         return post.id === this.id;
       });
     });
-
-    console.log(this.post);
   }
 
   @HostListener('window:scroll', [])
