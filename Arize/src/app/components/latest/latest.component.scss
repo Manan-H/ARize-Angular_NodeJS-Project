@@ -11,7 +11,7 @@
   }
 
   & .card-text {
-    min-height: 90px;
+    min-height: 79px;
   }
 
   & .card-btn {
@@ -72,4 +72,14 @@
   100% {
     box-shadow: none;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .latest_card .card-btn {
+    background: linear-gradient(90deg, #6e3694, #5253c9, #6f22a5);
+    background-size: 400%;
+    transition: 0.5s;
+    animation: animateBtn 8s linear infinite;
+  }
+
 }

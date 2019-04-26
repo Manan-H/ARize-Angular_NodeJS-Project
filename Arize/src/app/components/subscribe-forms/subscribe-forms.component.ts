@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-subscribe-forms',
@@ -9,7 +10,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class SubscribeFormsComponent implements OnInit {
   form: FormGroup;
 
-  constructor() {}
+  constructor(private httpClient: HttpClient) {}
 
   ngOnInit() {
     this.form = new FormGroup({
@@ -21,6 +22,29 @@ export class SubscribeFormsComponent implements OnInit {
 
   myClick() {
     console.log(this.form.value);
+    let location = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    const formData = new FormData();
+    formData.append('name', this.form.get('name').value);
+    formData.append('email', this.form.get('email').value);
+    formData.append('location', location);
+    formData.append('captcha', this.form.get('recaptchaReactive').value);
+
+    this.httpClient
+      .post<any>(
+        'https://cors-anywhere.herokuapp.com/http://arize.io/assets/php/subscribe.php',
+        formData
+      )
+      .subscribe(
+        res => {
+          console.log(res);
+          document.getElementById('answer').innerHTML = res;
+        },
+        err => {
+          console.log(err);
+          document.getElementById('answer').innerHTML = err;
+        }
+      );
   }
   resolved(captchaResponse: string) {
     console.log(`Resolved captcha with response ${captchaResponse}:`);
