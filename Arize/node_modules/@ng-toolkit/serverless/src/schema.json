@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "ng-toolkit serverless",
+  "title": "Angular Application Options Schema",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "string",
+      "description": "The name of the project.",
+      "$default": {
+        "$source": "projectName"
+      }
+    },
+    "provider": {
+      "description": "Specify serverless provider.",
+      "enum": ["aws", "gcloud", "firebase"],
+      "type": "string",
+      "default": "aws"
+    },
+    "skipInstall": {
+      "description": "Skip installation of dependencies.",
+      "type": "boolean",
+      "default": false
+    },
+    "directory": {
+      "description": "App root catalog",
+      "type": "string",
+      "default": "."
+    },
+    "firebaseProject": {
+      "description": "Firebase project id",
+      "type": "string"
+    }
+  },
+  "required": []
+}

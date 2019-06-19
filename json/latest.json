@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "image": "../assets/img/blog_images/artists-challenge.jpg",
+    "Published": "29.01.2019",
+    "card_text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "btn_text": "READ"
+  },
+  {
+    "id": 2,
+    "image": "../assets/img/blog_images/artworks_berlin.jpg",
+    "Published": "",
+    "card_text": "On 18th of January in the VR Lounge Berlin first of its kind competition Berlin's first VR art challenge: Off the Wall took ",
+    "btn_text": "READ"
+  },
+  {
+    "id": 3,
+    "image": "../assets/img/blog_images/school.jpg",
+    "Published": "",
+    "card_text": "Հոկտեմբերի 26-ին Երևանի 2800 տարեկանի կապակցությամբ Ջոն Կիրակոսյանի անվան դպրոցը",
+    "btn_text": "READ"
+  },
+  {
+    "id": 4,
+    "image": "../assets/img/blog_images/become_reseller.jpg",
+    "Published": "",
+    "card_text": "We are a fast growing AR startup company in our own market segment and we are looking for enthusiastic...",
+    "btn_text": "READ"
+  }
+]

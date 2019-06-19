@@ -1,0 +1,1 @@
+export * from './ngt-universal/ngt-universal.module';
